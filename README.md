@@ -1,5 +1,7 @@
 # ATOM ONE CONSTITUTION 
 
+_NOTE: THIS IS A DRAFT; MAKE A PR BEFORE IT BECOMES FINAL!_
+
 ## The Preamble
 
 We the people of the Cosmos, in order to create a free world, enable voluntary
