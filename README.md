@@ -113,7 +113,7 @@ in the following regions;
  * South America
  * Europe
  * Asia
- * Afrika
+ * Africa
 
 ## The Tax System
 
