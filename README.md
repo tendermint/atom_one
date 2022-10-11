@@ -67,6 +67,12 @@ double-signs.
 Complex signing failures (those that require +1/3 to coordinate) will result in
 complete slashing.
 
+Any inflation of ATOM tokens to the Community Pool or designated DAO beyond the
+default inflation rate described here requires a supermajority vote of a
+special inflation governance proposal type.
+
+Liquid staking may only be supported through interchain accounts.
+
 ## The PHOTON Token
 
 The ATOM distribution will be 1:1 airdropped into the PHOTON distribution.  The
@@ -80,6 +86,10 @@ issuance approved by the special governance procedure.
 
 The PHOTON and ATOM tokens will be whitelisted as transaction fee payments for
 the hub and all simple-transfer zones.
+
+Any inflation of PHOTON tokens to the Community Pool or designated DAO beyond
+the default inflation rate described here requires a supermajority vote of a
+special inflation governance proposal type.
 
 ## The ICS System
 
@@ -103,11 +113,26 @@ in the following regions;
  * Asia
  * Afrika
 
+## The Tax System
+
+Tax proceeds are sent to the Community Pool.
+
+The tax rate is initially 2%, but can be increased up to 50% by governance vote.
+
 ## The Governance Process
 
 Air-drops or forks of the ATOM token to new chains is freely allowed. The
 air-drop may be modified based on consensus voting and governance voting
 activity according to the philosophy of the new chain.
+
+The governance process will extend the voting deadline to ensure at least 2
+weeks of voting after the quorum has been met.
+
+The inflation of additional ATOMs or PHOTONs to the Community Pool or
+designated DAO require a special inflation propoal type, and the threshold
+shall be 67% instead of the default 50%. The special inflation proposal can
+include a description of the purpose of the inflation, but cannot include any
+other modifications to the hub or constitution.
 
 ## The Cryptographic Assumptions
 
