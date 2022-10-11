@@ -67,9 +67,9 @@ double-signs.
 Complex signing failures (those that require +1/3 to coordinate) will result in
 complete slashing.
 
-Any inflation of ATOM tokens to the Community Pool or designated DAO beyond the
-default inflation rate described here requires a supermajority vote of a
-special inflation governance proposal type.
+Any inflation of ATOM tokens to the Community Pool or designated Treasury DAO
+beyond the default inflation rate described here requires a supermajority vote
+of a special inflation governance proposal type.
 
 Liquid staking may only be supported through interchain accounts.
 
@@ -87,9 +87,9 @@ issuance approved by the special governance procedure.
 The PHOTON and ATOM tokens will be whitelisted as transaction fee payments for
 the hub and all simple-transfer zones.
 
-Any inflation of PHOTON tokens to the Community Pool or designated DAO beyond
-the default inflation rate described here requires a supermajority vote of a
-special inflation governance proposal type.
+Any inflation of PHOTON tokens to the Community Pool or designated Treasury DAO
+beyond the default inflation rate described here requires a supermajority vote
+of a special inflation governance proposal type.
 
 ## The ICS System
 
@@ -119,6 +119,13 @@ Tax proceeds are sent to the Community Pool.
 
 The tax rate is initially 2%, but can be increased up to 50% by governance vote.
 
+## Treasury DAOs
+
+Treasury DAOs should be judged based on how accountable and functional they
+are; “real” people should hold roles (1 person max 1 role) including possibly
+1,2,3 executive roles, and be fired by the DAO’s oversight committee (or hub
+gov) for failing their job description.
+
 ## The Governance Process
 
 Air-drops or forks of the ATOM token to new chains is freely allowed. The
@@ -129,13 +136,30 @@ The governance process will extend the voting deadline to ensure at least 2
 weeks of voting after the quorum has been met.
 
 The inflation of additional ATOMs or PHOTONs to the Community Pool or
-designated DAO require a special inflation propoal type, and the threshold
-shall be 67% instead of the default 50%. The special inflation proposal can
-include a description of the purpose of the inflation, but cannot include any
-other modifications to the hub or constitution.
+designated Treasury DAO require a special inflation propoal type, and the
+threshold shall be 67% instead of the default 50%. The special inflation
+proposal can include a description of the purpose of the inflation, but cannot
+include any other modifications to the hub or constitution.
+
+New updates to the hub should be broken down into independent components and
+discussed/proposed separately with adequate time between, regardless of any
+omnibus whitepaper. There must be a competing set of DAO systems to ensure that
+proposals are well factored.
 
 ## The Cryptographic Assumptions
 
 The only cryptographic assumptions used by the Cosmos Hub including its
 consensus shall be Ed25519 and Secp256k1 elliptic curves, and RIPEMD160 and
 SHA256 hash functions.
+
+## The Implementation
+
+The hub should not have any VM functionality, but be plainly implemented in a
+single garbage collected language as reference (namely Go; and other clients
+can implement it all in another language like Rust).
+
+# NOTES
+
+For discussion, see
+https://forum.cosmos.network/t/atom-one-constitution-proposal/7514 and
+cosmoshub@googlegroups.com
