@@ -1,5 +1,7 @@
 # ATOM ONE CONSTITUTION 
 
+_NOTE: THIS IS A DRAFT; MAKE A PR BEFORE IT BECOMES FINAL!_
+
 _This document is a work in progress. This document assumes familiarity with the
 current workings of cosmoshub4 as of Oct 11th 2022. What is described here are
 modifications to what already is. This clause will be removed with future
