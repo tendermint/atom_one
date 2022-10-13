@@ -202,12 +202,11 @@ Liquid staking may only be supported through interchain accounts.
 
 ### Rule 13. The PHOTON Token
 
-The ATOM distribution will be 1:1 airdropped into the PHOTON distribution.  The
-PHOTON distribution will also be airdropped to IBC chains with no need to transfer
-any ATOMs back to the hub.
+The PHOTON distribution will be created by burning ATOM tokens in a one-time
+event that will last no longer than 3 months.
 
 Thereafter the PHOTON token will be inflated at a constant fixed rate equal to
-5% of the initial distribution, forever, and paid to the bonded ATOM holders.
+2% of the initial distribution, forever, and paid to the bonded ATOM holders.
 This inflation rate may be decreased but never increased, except for any
 issuance approved by the special governance procedure.
 
