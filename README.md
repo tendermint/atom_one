@@ -452,7 +452,7 @@ agenda, and this awareness is growing exponentially.
 
 This control grid was leaked by whistleblower Senator Larry McDonald in the
 70's, whose plane was soon after shot down.
-[(YT)](https://www.youtube.com/watch?v=_BPhYEFGaGM). The "monolithic and
+[(TWT)](https://twitter.com/Xx17965797N/status/1578662395358384128?s=20&t=MrwxzKymkKv6ehdfhvKlAA). The "monolithic and
 ruthless conspiracy that relies on covert means" was leaked before by JFK who
 was assassinated in 1963. [(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
 Now we have experienced the NWO control grid by the WEF, and its young global
