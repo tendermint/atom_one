@@ -440,3 +440,4 @@ cosmoshub@googlegroups.com
 
 * Jae Kwon
 * Paul Susman
+* Manfred Touron
