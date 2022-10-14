@@ -35,14 +35,15 @@ other inter-connected hubs that can form or create other sovereign zones.
 
 The working language of Cosmos is English.
 
-### Rule 3. General Objective and Mission
+### Rule 3. General Mission and Objectives
 
-The objective of the Cosmos Hub is the creation of a new and unique world
-allowing for interactions between cosmonauts of Cosmos where people can act
-freely and develop. The mission of the Cosmos Hub is to provide a classical BFT
-proof-of-stake multi-token payment and transfer system; and to provide the
-security of the platform to applications hosted in other chains (zones); for as
-many people as possible in the Sol system.
+The mission of the Cosmos Hub is to create a new world allowing for
+permissionless yet secure interactions between the Cosmonauts of Cosmos of the
+Sol system.
+
+The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
+multi-token payment and transfer system; and to scale the security of the
+platform to many applications hosted in other chains (zones) via ICS.
 
 ### Rule 4. Cosmonauts
 
