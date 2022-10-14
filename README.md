@@ -2,9 +2,9 @@
 
 _NOTE: THIS IS A DRAFT; MAKE A PR BEFORE IT BECOMES FINAL!_
 
-_This document is a work in progress. This document assumes familiarity with the
-current workings of cosmoshub4 as of Oct 11th 2022. What is described here are
-modifications to what already is. This clause will be removed with future
+_This document is a work in progress. This document assumes familiarity with
+the current workings of cosmoshub4 as of Oct 11th 2022. What is described here
+are modifications to what already is. This clause will be removed with future
 revisions, and the corresponding parts of the document updated with a full
 description of the constitution of the hub._
 
@@ -111,8 +111,8 @@ blockchain applications that provide the following functions:
 
 The ICS system must ensure a reasonable Nakamoto coefficient for each zone.
 
-The ICS system must enable geographically regional validator sets, at least 
-in the following regions;
+The ICS system must enable geographically regional validator sets, at least in
+the following regions;
 
  * Western US
  * Eastern US
@@ -203,7 +203,8 @@ Liquid staking may only be supported through interchain accounts.
 ### Rule 13. The PHOTON Token
 
 The PHOTON distribution will be created by burning ATOM tokens in a one-time
-event that will last no longer than 3 months.
+event that will last no longer than 3 months. After completion, 20% of the
+issued PHOTONs will additionally be inflated and added to the community pool.
 
 Thereafter the PHOTON token will be inflated at a constant fixed rate equal to
 2% of the initial distribution, forever, and paid to the bonded ATOM holders.
@@ -220,16 +221,19 @@ of a special inflation governance proposal type.
 ### Rule 14. Inflation
 
 The inflation of additional ATOMs or PHOTONs to the Community Pool or
-designated Treasury DAO require a special inflation proposal type, and the
-threshold shall be 67% instead of the default 50%. The special inflation
-proposal can include a description of the purpose of the inflation, but cannot
-include any other modifications to the Cosmos Hub or its Constitution.
+designated Treasury DAO require a special inflation proposal type, and will
+require a two thirds supermajority instead of the default 50%. 
+
+The special inflation proposal can include a description of the purpose of the
+inflation, but cannot include any other modifications to the Cosmos Hub or its
+Constitution.
 
 ### Rule 15. The Tax System
 
 Tax proceeds are sent to the Community Pool.
 
-The tax rate is initially 2%, but can be increased up to 50% by governance vote.
+The tax rate is initially 2%, but can be increased up to 50% by governance
+vote.
 
 ## Part 4 Final Dispositions
 
@@ -257,8 +261,171 @@ are composed of the approved primitives.
 This constitution may be modified or additional parts and rules appended by two
 thirds supermajority of Cosmos Hub governance.
 
-# NOTES
+<hr />
 
-For discussion, see
+# COMMENTARY
+
+## Comments from Jae Kwon
+
+### About the economic model
+
+The notion that ATOM is a "memecoin" ignores the obvious and original business
+model for the hub -- token transfer fees. Bitcoin and Ethereum gas transaction
+fees are in the 10s/100s of millions, and we haven't even gotten to VISA scale
+yet. ATOM is not money, it's VISA shares, IBM shares, and FED shares (but where
+ATOM stakers are general partners rather than limited partners).
+
+It's an alternative to the status quo that Bitcoin originally wanted to be, but
+more. Well, imagine what kind of social manipulation we must be under, to be
+pursuing such a dream.
+
+The best part is we've done most of the work already. With minimal ICS the
+simple-transfer-zones are already more or less done. We're 90% done with
+massive scale MVP, and after that scaling will be relatively easy. AND this
+ATOM1 hub is a minimal hub that zones will want to use. The product market fit
+is already there. It's simple, and we are already positioned for it. It is
+neutral to application zones that provide more functionality than token
+transfers.
+
+As IBM's CEO once said, the secret cash cow of IBM is transaction processing.
+> IBM Mainframe=FT, Tendermint=BFT
+
+Cosmos is the VISA network built upon this decentralized BFT mainframe system.
+Always was, and should remain.
+
+New functionality can always be permissionlessly added on top of this base
+ATOM1 framework. The gno.land prop69 #exitdrop is a demonstration of value-add
+to the Cosmos Hub, as it will provide Gnolang smart contracts while IBC pegging
+to the Cosmos Hub for tokens.
+
+Using ICS, it should be possible to run new Gnolang VM powered zones secured by
+the Cosmos Hub, but also IBC connected to the gno.land chain for importing
+logic hosted on the gno.land "github" (and paying gas fees & license fees to
+each).
+
+### About ATOM2.0
+
+I'm not against all the ideas of ATOM2. Some ideas are genuinely interesting. I
+just think we should do it on ATOM1, and use PHOTONs. That is, ATOM2 ->
+PHOTON1.
+
+Pretty much all the proposals in the ATOM2 paper can be implemented on top of
+ATOM1 (see github link above for draft) on the PHOTON token on separate zones
+implemented permissionlessly. The Allocator service zone could be implemented
+by anyone and secured by ICS, and use PHOTONs as the counterparty token in
+AMMs. The Scheduler likewise can be implemented permissionlessly and use
+PHOTONs as payment token. Zones can choose to use whatever scheduling or
+allocation system they want. ATOM1 allows governance to approve of inflation of
+PHOTONs for any particular purpose such as this.
+
+The main benefit of allowing permissionless implementation of the allocator and
+scheduler is that it allows competition of implementation. For example, there
+are alternative ways to implement the Scheduler that is different than ABCI++;
+it can be implemented as an extension to ABCI to allow Tendermint to allocate
+different priority mempools for different transaction types. This isn’t what is
+proposed in ABCI++ but IMO the first step to solving pay-for-priority. We don’t
+have to solve this by commitee, we can let the free market decide what solution
+is actually preferred.
+
+The proposed treasury inflation is ludicrously high. - there was another tweet
+by someone extolling the virtues of treasury funding, of how 100,000 ATOMs were
+able to accomplish so much. The ATOM2.0 proposal creates FIVE HUNDRED (500)
+TIMES as much to go into treasury in the first year alone. Not only are there
+enough funds within the ICF alone to complete the featureset of the Cosmos Hub,
+it is certainly unnecessary to inflate so much in addition. No single
+centralized entity can responsibly distribute such funds in a responsible way.
+In fact, it will lead to failure. Queue all the crypto projects that raised so
+much money that are not even breaking even. EOS comes to mind, but there are
+numerous examples.
+
+Instead, the proposal for the ATOM ONE constitution here proposes the adoption
+of one or more Treasury DAOs that can be funded as needed; slowly at first,
+with more funding to come from the community pool as the Treasury DAO proves
+itself.
+
+Described in the constitution also are a way for the ICF to defer to a Treasury
+DAO for execution and decisions, while still maintaining control over the
+distribution of funds via a m-of-n multisignature account on the hub, thereby
+having ultimate veto power.
+
+Also, the tax system may be used to allocation a portion of ATOM and PHOTON
+inflation to fund the common pool.
+
+### About Security, and the need for ATOM/PHOTON separation
+
+The staking ratio today on Ethereum PoS is 12%. With massive adoption, unless
+we have complete laymen involved in staking, and with ETH becoming money, the
+stake ratio should fall even lower, perhaps even to <1%. At that point it
+becomes easy to coordinate a fund to take over the consensus process of the
+chain. PoW networks have two “tokens” the mining infrastructure (which can be
+bought or sold, and also is “inflationary”) and the coins themselves. This
+separation allows Bitcoin to become widely adopted without worrying about
+security vulnerabilties, because even the largest of whales cannot simply buy
+1/2 of mining infrastructure. It isn’t a superfluid market, which makes it more
+secure.
+
+I do see the “monification” of ATOM as per ATOM2.0 to be fundamentally flawed,
+for a chain whose main selling point is SECURITY. I believe ETH2.0 with its ETH
+staking is similarly flawed. I fear that we won’t realize it until it is too
+late. We can prevent future disasters.
+
+(In biology, it’s the difference between Eukaryotic (cell nucleus) and
+Procaryotic (no nucleus) cells. Evolution has proven that multicellular
+(inter-cellular) systems like us are generally Eukaryotic. They both exist, but
+complexity demands more intracellular security.)
+
+Imagine how easy it would be to create a fund and simply buy VISA… well not
+even buy, but simply bond the capital of the market cap of VISA, of $391B.
+That’s a lot of money, but if bonding that capital means one can take control
+over the financial system, people would lend their money in a heartbeat. But
+thankfully VISA shares are not money, and there are probably plenty of
+shareholders who don’t want to sell.
+
+Once there are ATOMs and PHOTONs, and the hub finds good ways to incentive
+PHOTON usage, we will end up promoting PHOTON more than ATOMs, and the market
+cap of PHOTON should theoretically eclipse that of the market cap of ATOM.
+There’s much more money in circulation than the market cap of VISA/IBM/FED
+combined.
+
+The ATOM -> PHOTON burn event is designed to make ATOM even more deflationary.
+
+Finally, with the rollout of ICS, simple-transfer zones and other application
+zones, and PHOTON inflation, the inflation rate of the ATOM token may even
+become negative to maintain the target of 2/3 bonding. 
+
+Liquid staking somewhat usurps the point of bonded staking, and thus by nature
+its utility is limited. It is already supported through the usage of interchain
+accounts, so that is all that needs to be done.
+
+### About consensus-driven investments
+
+Governance driven funding will fail, like central planning fails. - where-ever
+possible we should ensure that intelligence is preserved or amplified in
+decisions. The way to ensure that good decisions are rewarded and bad decisions
+punished, is to require individual decision makers to put skin in the game.
+This is why innovation happens in the private sector, and why governance
+funding is seen as a corruption of private sector innovation, and why central
+government planning historically has led to failure. It turns the incentive
+model of individual merit, into a game of politics. This is true even when
+decision making is weighted by relative capital.
+
+We can see this clearly in the private sector investment world. The best
+performing funds do not have their decisions made by weighted voting of LPs.
+Rather, the LPs are free to join and leave, while the investment thesis of each
+fund is maintained by select GPs. The ATOM2.0 tokenomics model is akin to
+taxing all investment funds and putting the proceeds into a giant super-fund
+controlled by LPs. If this were to happen in the real world, the super-fund
+would create such a large distortion of incentives as to destroy innovation in
+general. It would turn into a game of media/mind/political control, and actual
+innovators would fail to get the funding they need, and even if they did get
+funding, the entire private sector would become swamped with the resulting dumb
+money, making it harder for innovators to compete with incumbent politicians.
+The world would not accept such a policy toward central planning, and we should
+not accept it either, as it will lead to sure failure not only of the Cosmos
+Hub, but of the entire ecosystem.
+
+# LINKS
+
+For more discussion, see
 https://forum.cosmos.network/t/atom-one-constitution-proposal/7514 and
 cosmoshub@googlegroups.com
