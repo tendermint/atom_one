@@ -39,7 +39,7 @@ The working language of Cosmos is English.
 
 The mission of the Cosmos Hub is to create a new world allowing for
 permissionless yet secure interactions between the Cosmonauts of Cosmos in the
-Sol system.
+Sol [TODO: define Sol System or is it Solar?] system.
 
 The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
 multi-token payment and transfer system; and to scale the security of the
@@ -94,7 +94,7 @@ weeks of voting after the quorum has been met.
 
 ### Rule 8. Air-drops and forks
 
-Every Cosmonault allows any Cosmonaut to create full or partial airdrops of new
+Every Cosmonault [TODO: is this a type or does Cosmonault need to be defined?] allows any Cosmonaut to create full or partial airdrops of new
 tokens to any chain using the distribution of any token on the Cosmos Hub.
 
 Every citizen allows any Cosmonaut to modify their pro-rata of their airdrop
@@ -110,7 +110,7 @@ blockchain applications that provide the following functions:
  * IBC token transfers back to the hub
  * atomic cross-chain transactions across other simple-transfer zones
 
-The ICS system must ensure a reasonable Nakamoto coefficient for each zone.
+The ICS system must ensure a reasonable Nakamoto coefficient [TODO: can we make this more concrete? At least for now and and amend through governance] for each zone.
 
 The ICS system must enable geographically regional validator sets, at least in
 the following regions;
@@ -134,14 +134,14 @@ the Cosmos Hub as a m-of-n multisig account where n is at least 3 and m is at
 least 1/2 of n, where each signatory is an authorized member of the Treasury
 DAO and citizen of the Cosmos Hub.
 
-The Treasury DAO will be composed of Cosmonauts, and at the top Executive Board
+The Treasury DAO will be composed of Cosmonauts, and at the top Executive Board [TODO: what is this entities charter and authority?]
 level be composed of one or more citizens. All Cosmonauts and citizens of
 Treasury DAOs including their Oversight Committee must have public and known
-real personal identities. 
+real personal identities. [TODO: Is this a requirement of all cosmonauts or only ones participating in Treasury DAOs?]
 
-To enable the well-functioning of Treasury DAOs and the separation of powers in
+To enable well-functioning Treasury DAOs and the separation of powers in
 the utmost interest of the Cosmos Hub, each member can hold just one type of
-role within each Treasury DAO.
+role within each Treasury DAO. [TODO: are there explicit role types?]
 
 The members of the DAO must perform efficiently in their role in line with
 their job description. They are accountable to each DAO’s Oversight Committee
@@ -202,6 +202,7 @@ of a special inflation governance proposal type.
 Liquid staking may only be supported through interchain accounts.
 
 ### Rule 13. The PHOTON Token
+[TODO: can we define the existential use case for PHOTONs here much like the first sentence of Rule 12.]
 
 The PHOTON distribution will be created by burning ATOM tokens in a one-time
 event that will last no longer than 3 months. After completion, 20% of the
@@ -276,7 +277,7 @@ thirds supermajority of Cosmos Hub governance.
 
 ### About the economic model
 
-The notion that ATOM is a "memecoin" ignores the obvious and original business
+The notion that ATOM is a "memecoin" [TODO: it may be worth address a wider audience than "crypto bros" and qualify what memecoin means in this context] ignores the obvious and original business
 model for the hub -- token transfer fees. Bitcoin and Ethereum gas transaction
 fees are in the 10s/100s of millions, and we haven't even gotten to VISA scale
 yet. ATOM is not money, it's VISA shares, IBM shares, and FED shares (but where
@@ -358,12 +359,7 @@ having ultimate veto power.
 Also, the tax system may be used to allocation a portion of ATOM and PHOTON
 inflation to fund the common pool.
 
-### About security, and the need for ATOM/PHOTON separation
-
-I do see the “monification” of ATOM as per ATOM2.0 to be fundamentally flawed,
-for a chain whose main selling point is SECURITY. I believe ETH2.0 with its ETH
-staking is similarly flawed. I fear that we won’t realize it until it is too
-late. We can prevent future disasters.
+### About Security, and the need for ATOM/PHOTON separation
 
 The staking ratio today on Ethereum PoS is 12%. With massive adoption, unless
 we have complete laymen involved in staking, and with ETH becoming money, the
@@ -375,6 +371,11 @@ separation allows Bitcoin to become widely adopted without worrying about
 security vulnerabilties, because even the largest of whales cannot simply buy
 1/2 of mining infrastructure. It isn’t a superfluid market, which makes it more
 secure.
+
+I do see the “monification” of ATOM as per ATOM2.0 to be fundamentally flawed,
+for a chain whose main selling point is SECURITY. I believe ETH2.0 with its ETH
+staking is similarly flawed. I fear that we won’t realize it until it is too
+late. We can prevent future disasters.
 
 (In biology, it’s the difference between Eukaryotic (cell nucleus) and
 Procaryotic (no nucleus) cells. Evolution has proven that multicellular
