@@ -29,6 +29,13 @@ transaction fees from a large number of transactions across all the blockchains
 secured by the bonding of ATOM tokens, first and foremost from simple intra and
 inter-zone token transfers.
 
+## Standardizations
+
+Comsos zones, chains and apps will seek to implment standardizaitons in alignment with
+international stadardizations as set forth by the International Standardization Organizaiton. There
+is a collection of standardizations that satisfy codifications for most every type of product or service imagineable.
+
+
 ## The COSMOS HUB Chain
 
 The main hub is uniquely identified by chainid "cosmoshub". 
