@@ -256,7 +256,13 @@ SHA256 hash functions.
 No zero-knowledge proof systems may be adopted on the Cosmos Hub even if they
 are composed of the approved primitives.
 
-## Rule 19. Amendment of the Constitution
+## Rule 19. Compute/storage/memory limitations
+
+For the sake of decentralization, accessibility, accountability, and security,
+the hub and each ICS zone will be restricted such that each can run on a
+commodity machine. 
+
+## Rule 20. Amendment of the Constitution
 
 This constitution may be modified or additional parts and rules appended by two
 thirds supermajority of Cosmos Hub governance.
