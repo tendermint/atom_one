@@ -38,7 +38,7 @@ The working language of Cosmos is English.
 ### Rule 3. General Mission and Objectives
 
 The mission of the Cosmos Hub is to create a new world allowing for
-permissionless yet secure interactions between the Cosmonauts of Cosmos of the
+permissionless yet secure interactions between the Cosmonauts of Cosmos in the
 Sol system.
 
 The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
