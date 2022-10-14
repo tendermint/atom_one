@@ -358,7 +358,12 @@ having ultimate veto power.
 Also, the tax system may be used to allocation a portion of ATOM and PHOTON
 inflation to fund the common pool.
 
-### About Security, and the need for ATOM/PHOTON separation
+### About security, and the need for ATOM/PHOTON separation
+
+I do see the “monification” of ATOM as per ATOM2.0 to be fundamentally flawed,
+for a chain whose main selling point is SECURITY. I believe ETH2.0 with its ETH
+staking is similarly flawed. I fear that we won’t realize it until it is too
+late. We can prevent future disasters.
 
 The staking ratio today on Ethereum PoS is 12%. With massive adoption, unless
 we have complete laymen involved in staking, and with ETH becoming money, the
@@ -370,11 +375,6 @@ separation allows Bitcoin to become widely adopted without worrying about
 security vulnerabilties, because even the largest of whales cannot simply buy
 1/2 of mining infrastructure. It isn’t a superfluid market, which makes it more
 secure.
-
-I do see the “monification” of ATOM as per ATOM2.0 to be fundamentally flawed,
-for a chain whose main selling point is SECURITY. I believe ETH2.0 with its ETH
-staking is similarly flawed. I fear that we won’t realize it until it is too
-late. We can prevent future disasters.
 
 (In biology, it’s the difference between Eukaryotic (cell nucleus) and
 Procaryotic (no nucleus) cells. Evolution has proven that multicellular
