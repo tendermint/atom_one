@@ -431,6 +431,87 @@ The world would not accept such a policy toward central planning, and we should
 not accept it either, as it will lead to sure failure not only of the Cosmos
 Hub, but of the entire ecosystem.
 
+### About the mark of the beast
+
+The powers of the world as represented by the WEF is intent on implementing the
+mark of the beast. As per the Book of Revelation,
+
+* The nations of the world were deceived by pharmakia/medicine (Revelation 18
+  23)
+* The mark (in original Koine greek, a needle prick) is required to buy or sell
+  (Revelation 13:17)
+* The mark gives you sores (Revelation 16:2) // NOTE: have no fear about it
+  even if you got the shot.
+
+How could it be that a two millenia old document can predict what is happening
+today? Well, most people don't read the bible at all, and anyone can see the
+light and turn into a white-hat. It appears to me that the white-hats have
+shepherded the black-hats into following a script that ends up exposes them
+when it is too late. And now the "true Christians" have indeed exposed the NWO
+agenda, and this awareness is growing exponentially.
+
+This control grid was leaked by whistleblower Senator Larry McDonald in the
+70's, whose plane was soon after shot down.
+[(YT)](https://www.youtube.com/watch?v=_BPhYEFGaGM). The "monolithic and
+ruthless conspiracy that relies on covert means" was leaked before by JFK who
+was assassinated in 1963. [(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
+Now we have experienced the NWO control grid by the WEF, and its young global
+leaders, such as Fauci, Gates, Gavin Newsom, Trudeau; and even experiencing the
+war between Zelenski and Putin. The WEF, whose leader Schwab boasted about
+having infiltrated government cabinets, also wants us to "own nothing and be
+happy".  If it isn't clear enough, their logo even includes a subtle 666.
+
+The fact of the matter is, we probably do want some regulatory system to deal
+with large scale theft of coins resulting from bugs or human error/malice. Even
+if such a regulatory system is not imposed upon any zones, zones may want to
+voluntarily adopt some kind of regulatory policy. And zones probably want to
+enforce these policies across zones that choose to adopt the same policies.
+
+It follows, that in a minimal system, zones should be allowed to choose their
+own set of regulatory policies, and the Hub can help enforce these policies
+when it comes to IBC transfers across zones, or from hub to zone. From the
+perspective of the Hub, this is still a permissionless, voluntary system.
+
+When it comes to transactions on the hub, and transactions from zones to the
+hub, we should adopt the most minimal regulatory system. We could arguably do
+nothing--until it is too late, and we learn our lesson that we need *something*
+in the case of large scale theft from malice or bugs. The minimal nonzero
+policy we can adopt, is to enable one or more bonded DAOs to designate one or
+more addresses as being affected, with full justification, to temporarily
+freeze those coins, where the coins will unfreeze automatically until the hub's
+governance votes to act upon the frozen coins or to freeze the coins for longer
+to determine the facts. Something along these lines is a minimal regulatory
+system. Also, it is probably sensible for the hub to implement a kind of
+delayed transfer system, so that accounts with large token amounts can be
+protected by this regulatory system in the case of theft. Perhaps accounts can
+opt out of this transfer-delay protection.
+
+The above minimal regulatory system still begs for a full system of checks and
+balances. That's another rabbit hole for another issue/document. The ATOM1
+constitution hints at a system of checks and balances, but IMO it isn't
+complete yet, at least not in its current written form.
+
+The challenge is to (a) further refine and minimize the aforementioned hub
+internal regulatory policy, and (b) to define the inter-zone permissionless
+regulatory framework. With these implemented, the hub can ensure the rights to
+property, protect property in the case of theft, and allow zones to
+permissionlessly set their own policies. This is a critical
+architecture/constitutional/regulatory problem we should be discussing today.
+Until it is implemented, IMO crypto will not be ready for the general
+population.
+
+The problem is, getting this wrong is _significantly worse_ than not
+implementing it. When done wrong, either it will become destructive (tokens
+being frozen/stolen by the regulatory system), or it will become abusive (think
+1984 global dictatorship as per the NWO agenda, followed by global human
+depopulation). It follows that the Cosmos Hub should not implement a regulatory
+framework such that it can allow the permission innovation and proofing of
+regulatory frameworks over time. This best increases the chances of success in
+designing the right regulatory framework.
+
+A Rule should be added to the constitution to succinctly represent the above
+paragraph.
+
 # LINKS
 
 For more discussion, see
