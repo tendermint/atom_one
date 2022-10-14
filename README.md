@@ -183,7 +183,7 @@ Staked ATOMs are converted to bonded share units.
 
 The unbonding period is 3 weeks.
 
-Redelegation is allowed once per unbonding period for any delegation.
+Redelegation is allowed twice per unbonding period for any delegation.
 
 Double signing at any height/round/step results in slashing penalty that is
 proportional to the total amount of double signing by all validators for that
