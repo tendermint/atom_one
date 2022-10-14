@@ -429,3 +429,8 @@ Hub, but of the entire ecosystem.
 For more discussion, see
 https://forum.cosmos.network/t/atom-one-constitution-proposal/7514 and
 cosmoshub@googlegroups.com
+
+# Contributions
+
+* Jae Kwon
+* Paul Susman
