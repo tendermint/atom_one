@@ -452,9 +452,9 @@ agenda, and this awareness is growing exponentially.
 
 This control grid was leaked by whistleblower Senator Larry McDonald in the
 70's, whose plane was soon after shot down.
-[(TWT)](https://twitter.com/Xx17965797N/status/1578662395358384128?s=20&t=MrwxzKymkKv6ehdfhvKlAA). The "monolithic and
+[(ODY)](https://odysee.com/@Commentator:e4/Former_US_Congressman_Larry_McDonald:1)[(TWT)](https://twitter.com/Xx17965797N/status/1578662395358384128?s=20&t=MrwxzKymkKv6ehdfhvKlAA). The "monolithic and
 ruthless conspiracy that relies on covert means" was leaked before by JFK who
-was assassinated in 1963. [(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
+was assassinated in 1963. [(ODY)](https://odysee.com/@Real_Solutions:b/JFK's-Monolithic-Conspiracy-Revelation:7)[(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
 Now we have experienced the NWO control grid by the WEF, and its young global
 leaders, such as Fauci, Gates, Gavin Newsom, Trudeau; and even experiencing the
 war between Zelenski and Putin. The WEF, whose leader Schwab boasted about
