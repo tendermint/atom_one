@@ -310,6 +310,18 @@ the Cosmos Hub, but also IBC connected to the gno.land chain for importing
 logic hosted on the gno.land "github" (and paying gas fees & license fees to
 each).
 
+### The need for hubs
+
+Say there are 10,000 zones. Say a zone fails and it requires manual intervention.
+With 10,000 IBC connections you require 10,000 zones to all agree on recovery
+procedure; will never happen. But a zone connected to a more secure hub will be
+protected when it needs intervention.
+
+Another need for hubs; uniformity of guarantees. You need a hub to coordinate
+shard zones where governance/policy and staking gets applied to all shards.
+Otherwise, you don’t have one system of guarantees, you have many independent
+chains. Need to scale sendtx, might as well ICS.
+
 ### About ATOM2.0
 
 I'm not against all the ideas of ATOM2. Some ideas are genuinely interesting. I
