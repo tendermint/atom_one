@@ -16,64 +16,91 @@ economic security, cater for economic and technological development, allow for
 the creation of sovereign zones, and maintain order among sovereign zones, do
 ordain and establish this Constitution for the Cosmos Hub.
 
+## Part 0 Definitions
+
+Cosmos is the interchain network composed of many sovereign zones connected by
+IBC.
+
+A zone is a blockchain or set of blockchains that are self governed by a single
+well-defined governing body or bodies.
+
+IBC is short for Interchain Blockchain Communication, and includes all
+protocols that allow blockchains to communicate state or messages with other
+blockchains.
+
+ICS is short for Interchain Security, and includes all protocols that allow the
+consensus of one blockchain to be partially or wholly secured by mechanisms on
+another blockchain.
+
 ## Part 1 General Provisions
 
-### Rule 1. Fundamental principles
+### Rule 1. Fundamental Principles
 
-The Constitution of the Cosmos, hereinafter “the Constitution” hereby
-establishes the foundations of the governance, economical model and operating
-ecosystem of the Cosmos Hub.
+This Constitution of the Cosmos Hub, hereinafter “the Constitution” hereby
+establishes the foundations of the governance model, economical model, and
+operating system of the Cosmos Hub.
 
-Any other subsequent rules or governance proposals have to be in alignment with
-the provisions of this Constitution and the Proponents are required to ensure
-consistency between such proposals and this Constitution.
+All subsequent governance proposals must be in alignment with the provisions of
+the Constitution and their proponents and all governance voters are required to
+ensure consistency between such proposals and this Constitution.
 
-### Rule 2. Sovereignty of Cosmos
+### Rule 2. Sovereignty of the Cosmos Hub
 
-Cosmos is composed by a main sovereign hub that allows for the development of
-other inter-connected hubs that can form or create other sovereign zones.
+The Cosmos interchain network is composed of many sovereign zones such as the
+Cosmos Hub.
 
-The working language of Cosmos is English.
+The Cosmos Hub is composed of many blockchains including the main hub
+blockchain where staking and governance transactions are committed and
+executed, but also other blockchains secured by ICS that are subservient to the
+governance of the main hub blockchain, or simply the Cosmos Hub Governance.
+
+Other sovereign zones that are completely or partially secured by Cosmos Hub
+ICS by definition have their own governance mechanism, and the Cosmos Hub
+principally enables and follows the will of the governance of such sovereign
+zones with regards to the pegged tokens originating from said zones, except in
+well defined exceptional circumstances that involve bugs, theft, or harm to the
+Cosmonauts of the Cosmos ecosystem.
 
 ### Rule 3. General Mission and Objectives
 
 The mission of the Cosmos Hub is to create a new world allowing for
 permissionless yet secure interactions between the Cosmonauts of Cosmos in the
-Sol system.
+Solar system.
 
 The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
 multi-token payment and transfer system; and to scale the security of the
-platform to many applications hosted in other chains (zones) via ICS.
+platform to many applications hosted in other zones via Cosmos Hub ICS.
 
 ### Rule 4. Cosmonauts
 
 Every person has the right to become a Cosmonaut and can freely engage on the
-Cosmos. As such, every Cosmonaut has the right to own at least one address on
-the Cosmos Hub.
+Cosmos Hub. As such, every Cosmonaut has the right to own at least one address
+on the Cosmos Hub.
 
-Any Cosmonaut can also become a citizen of the Cosmos Hub by using their
+Any Cosmonaut can also become a Citizen of the Cosmos Hub by using their
 address to stake ATOMs and participate actively in governance. The status of
 citizenship is granted in an autonomous manner.
 
 ### Rule 5. Rights, Liberties, and Obligations in the Cosmos Hub
 
 The Liberty and Property of all Cosmonauts engaging in the Cosmos Hub is hereby
-guaranteed. Any restriction to the Liberty and Property of citizens on the
-Cosmos Hub can be done only through the hub's governance.
+guaranteed. Any restriction to the Liberty and Property of Citizens on the
+Cosmos Hub can be done only through the Cosmos Hub's governance.
 
 Every Cosmonaut has the right to receive benefits from their engagement in the
 Cosmos Hub, including rights derived from held or staked ATOMS in line with the
 provisions of this Constitution.
 
-Every citizen allows the Governance of the Cosmos Hub to restrict their staked
+Every Citizen allows the Governance of the Cosmos Hub to restrict their staked
 ATOM property by partial or full slashing according to their voting activity.
 
 ## Part 2 Governance
 
-### Rule 6. The COSMOS HUB Chain
+### Rule 6. The Cosmos Hub Chain
 
-The main hub is uniquely identified by chainid "cosmoshub".  This chain will
-serve the following functions:
+The main hub blockchain of the Cosmos Hub is uniquely identified by chainid
+"cosmoshub". This chain commits and executes transactions that serve the
+following functions:
 
  * governance proposals
  * ATOM staking
@@ -83,6 +110,8 @@ serve the following functions:
  * ICS service
 
 ### Rule 7. Decision-making
+
+The working language of Cosmos Hub governance is English.
 
 The provisions of this Constitution are to be implemented further though
 governance Proposals.
@@ -97,7 +126,7 @@ weeks of voting after the quorum has been met.
 Every Cosmonault allows any Cosmonaut to create full or partial airdrops of new
 tokens to any chain using the distribution of any token on the Cosmos Hub.
 
-Every citizen allows any Cosmonaut to modify their pro-rata of their airdrop
+Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
 portion by partial or full slashing based on their cryptographic voting
 activity according to well defined principles.
 
@@ -132,10 +161,10 @@ The operations of the Treasury DAO must operate on an ICS secured zone outside
 of the hub. As an exception, the tokens of the Treasury DAO may reside on the
 the Cosmos Hub as a m-of-n multisig account where n is at least 3 and m is at
 least 1/2 of n, where each signatory is an authorized member of the Treasury
-DAO and citizen of the Cosmos Hub.
+DAO and Citizen of the Cosmos Hub.
 
 The Treasury DAO will be composed of Cosmonauts, and at the top Executive Board
-level be composed of one or more citizens. All Cosmonauts and citizens of
+level be composed of one or more Citizens. All Cosmonauts and Citizens of
 Treasury DAOs including their Oversight Committee must have public and known
 real personal identities. 
 
@@ -151,7 +180,7 @@ Hub.
 
 The role and functions of the Executive Board shall be further developed
 through governance proposals within each DAO, unless the DAO chooses to defer
-to Cosmos Hub governance by citizens.
+to Cosmos Hub governance by Citizens.
 
 Each Treasury DAO shall have an Oversight Committee composed of any number of
 Cosmonauts. The Oversight Committee must have at least the right to freeze all
