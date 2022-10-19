@@ -301,6 +301,8 @@ thirds supermajority of Cosmos Hub governance.
 
 # COMMENTARY
 
+_This is not part of the Constitution_
+
 ## Comments from Jae Kwon
 
 ### About the economic model
