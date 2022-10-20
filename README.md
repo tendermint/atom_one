@@ -21,16 +21,16 @@ ordain and establish this Constitution for the Cosmos Hub.
 Cosmos is the interchain network composed of many sovereign zones connected by
 IBC.
 
-A zone is a blockchain or set of blockchains that are self governed by a single
-well-defined governing body or bodies.
+A zone is a chain or set of chains that are self governed by their respective
+governing bodies.
 
 IBC is short for Interchain Blockchain Communication, and includes all
-protocols that allow blockchains to communicate state or messages with other
-blockchains.
+protocols that allow one chain to communicate state or messages with anoother
+chain by tracking the consensus state of the other.
 
 ICS is short for Interchain Security, and includes all protocols that allow the
-consensus of one blockchain to be partially or wholly secured by mechanisms on
-another blockchain.
+consensus of one chain to be partially or wholly secured by mechanisms on
+another chain.
 
 ## Part 1 General Provisions
 
@@ -41,18 +41,19 @@ establishes the foundations of the governance model, economical model, and
 operating system of the Cosmos Hub.
 
 All subsequent governance proposals must be in alignment with the provisions of
-the Constitution and their proponents and all governance voters are required to
-ensure consistency between such proposals and this Constitution.
+the Constitution, and each proposal's proponents and all active governance
+voters are required to ensure consistency between such proposals and the
+Constitution.
 
 ### Rule 2. Sovereignty of the Cosmos Hub
 
 The Cosmos interchain network is composed of many sovereign zones such as the
 Cosmos Hub.
 
-The Cosmos Hub is composed of many blockchains including the main hub
-blockchain where staking and governance transactions are committed and
-executed, but also other blockchains secured by ICS that are subservient to the
-governance of the main hub blockchain, or simply the Cosmos Hub Governance.
+The Cosmos Hub is composed of many chains including the main hub chain where
+staking and governance transactions are committed and executed, but also other
+chains secured by ICS that are subservient to the governance of the main hub
+chain, hereinafter "Hub Governance".
 
 Other sovereign zones that are completely or partially secured by Cosmos Hub
 ICS by definition have their own governance mechanism, and the Cosmos Hub
@@ -98,16 +99,16 @@ ATOM property by partial or full slashing according to their voting activity.
 
 ### Rule 6. The Cosmos Hub Chain
 
-The main hub blockchain of the Cosmos Hub is uniquely identified by chainid
+The main hub chain of the Cosmos Hub is uniquely identified by chainid
 "cosmoshub". This chain commits and executes transactions that serve the
 following functions:
 
- * governance proposals
+ * governance voting
  * ATOM staking
  * flat PHOTON inflation
  * intra-hub token transfers
  * IBC token transfers
- * ICS service
+ * ICS orchestration and PHOTON staking
 
 ### Rule 7. Decision-making
 
@@ -116,27 +117,34 @@ The working language of Cosmos Hub governance is English.
 The provisions of this Constitution are to be implemented further though
 governance Proposals.
 
-TODO: describe the governance process.
-
-The governance process will extend the voting deadline to ensure at least 2
-weeks of voting after the quorum has been met.
+The governance process must extend the voting deadline to ensure at least 2
+weeks of voting after the minimum quorum has been met.
 
 ### Rule 8. Air-drops and forks
 
-Every Cosmonault allows any Cosmonaut to create full or partial airdrops of new
-tokens to any chain using the distribution of any token on the Cosmos Hub.
+Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
+of new tokens to any chain using the distribution of any token on the Cosmos
+Hub at any time.
 
 Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
 portion by partial or full slashing based on their cryptographic voting
-activity according to well defined principles.
+activity according to well defined principles at any time.
 
 ### Rule 9. The Interchain Security (ICS) System
 
-The first zones secured by ICS will be simple-transfer zones. These are
-blockchain applications that provide the following functions:
+While the ATOM token is the only token allowed for staking on the Cosmos Hub,
+the PHOTON token is the only token allowed for ICS staking.
+
+25% of the transaction fees earned from PHOTON tokens shall be paid to the
+staked ATOM holders (the "ICS Tax"). The rest shall be paid to the bonded
+PHOTON holders. The ICS Tax parameters may be adjusted by a regular governance
+proposal.
+
+The first zones secured by ICS shall be simple-transfer zones. These are
+chain applications that provide the following functions:
 
  * intra-zone token transfers
- * IBC token transfers back to the hub
+ * IBC token transfers to and from the hub
  * atomic cross-chain transactions across other simple-transfer zones
 
 The ICS system must ensure a reasonable Nakamoto coefficient for each zone.
@@ -144,12 +152,12 @@ The ICS system must ensure a reasonable Nakamoto coefficient for each zone.
 The ICS system must enable geographically regional validator sets, at least in
 the following regions;
 
- * Western US
- * Eastern US
- * Central America
- * South America
+ * North America
+ * Central and South America
  * Europe
- * Asia
+ * China
+ * East Asia
+ * India
  * Africa
 
 ### Rule 10. Treasury DAOs
@@ -163,7 +171,7 @@ the Cosmos Hub as a m-of-n multisig account where n is at least 3 and m is at
 least 1/2 of n, where each signatory is an authorized member of the Treasury
 DAO and Citizen of the Cosmos Hub.
 
-The Treasury DAO will be composed of Cosmonauts, and at the top Executive Board
+The Treasury DAO shall be composed of Cosmonauts, and at the top Executive Board
 level be composed of one or more Citizens. All Cosmonauts and Citizens of
 Treasury DAOs including their Oversight Committee must have public and known
 real personal identities. 
@@ -191,10 +199,11 @@ on the Cosmos Hub.
 
 ### Rule 11. Economic model
 
-The one and only economic incentive model is the collection of market-based
-transaction fees from a large number of transactions across all the blockchains
-secured by the bonding of ATOM tokens, first and foremost from simple intra and
-inter-zone token transfers.
+The one and only economic incentive model of the Cosmos Hub is the collection
+of market-based transaction fees from a large number of transactions across all
+the chains secured by the staking of ATOM tokens on the Cosmos Hub and the
+staking of PHOTON tokens for ICS secured blockchains, including but not limited
+to simple token transfer zones.
 
 ### Rule 12. The ATOM Token
 
@@ -202,65 +211,71 @@ The ATOM token functions as voting shares, economic incentive shares, and
 security bond for the Cosmos Hub.
 
 To preserve the security and identity of the acting governance and validator
-set, the inflation rate of the ATOM token is made to vary to target 2/3 of all
-ATOMs. The maximum inflation rate is 20% non-compounded per year. There is no
-minimum inflation rate, and it can even be negative (deflationary).
+set, the inflation rate of the ATOM token is made to vary over time to target
+2/3 of all ATOMs. The maximum inflation rate is 20% non-compounded per year.
+There is no minimum inflation rate, and it can even be negative (deflationary).
 
 Inflated ATOM tokens are paid to bonded ATOM holders in proportion to each
 delegator's staking amount.
 
-Staked ATOMs are converted to bonded share units.
+Staked ATOMs are converted to Bonded Share Units.
 
-The unbonding period is 3 weeks.
+The unbonding period shall be 3 weeks.
 
 Redelegation is allowed twice per unbonding period for any delegation.
 
 Double signing at any height/round/step results in slashing penalty that is
 proportional to the total amount of double signing by all validators for that
 height/round/step, with evidence collected during the unbonding period; the
-penalty will range from +0% to 100%, the latter when 2/3 of voting power
+penalty shall range from +0% to 100%, the latter when 2/3 of voting power
 double-signs.
 
-Complex signing failures (those that require +1/3 to coordinate) will result in
+Complex signing failures (those that require +1/3 to coordinate) shall result in
 complete slashing.
 
-Any inflation of ATOM tokens to the Community Pool or designated Treasury DAO
-beyond the default inflation rate described here requires a supermajority vote
-of a special inflation governance proposal type.
+Liquid staking may only be supported through interchain accounts (aka
+non-native liquid staking).
 
-Liquid staking may only be supported through interchain accounts.
+To limit the amount of liquid staked tokens so as to reduce systemic risk from
+liquid staking, there shall be imposed a 5% tax (the "Liquid Staking Tax") on
+all rewards paid out to staked interchain accounts. This Liquid Staking Tax
+parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub. 
+
+If the amount of ATOMs staked using interchain accounts exceeds 20% (the
+"Liquid Staking Factor") of the total staked ATOMs, the Liquid Staking Tax
+shall automatically increase by 1% per month. The Liquid Staking Factor
+parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
 
 ### Rule 13. The PHOTON Token
 
-The PHOTON distribution will be created by burning ATOM tokens in a one-time
-event that will last no longer than 3 months. After completion, 20% of the
-issued PHOTONs will additionally be inflated and added to the community pool.
+The PHOTON distribution shall be created by burning ATOM tokens in a one-time
+event that shall last no longer than 3 months. After completion, 20% of the
+issued PHOTONs shall additionally be inflated and added to the community pool.
 
-Thereafter the PHOTON token will be inflated at a constant fixed rate equal to
+Thereafter the PHOTON token shall be inflated at a constant fixed rate equal to
 2% of the initial distribution, forever, and paid to the bonded ATOM holders.
 This inflation rate may be decreased but never increased, except for any
 issuance approved by the special governance procedure.
 
-The PHOTON and ATOM tokens will be whitelisted as transaction fee payments for
-the hub and all simple-transfer zones.
+The PHOTON and ATOM tokens shall be whitelisted as transaction fee payments for
+the Cosmos Hub and all simple-transfer zones.
 
-Any inflation of PHOTON tokens to the Community Pool or designated Treasury DAO
-beyond the default inflation rate described here requires a supermajority vote
-of a special inflation governance proposal type.
+The PHOTON token shall be the only staking token for ICS staking. 
 
 ### Rule 14. Inflation
 
-The inflation of additional ATOMs or PHOTONs to the Community Pool or
-designated Treasury DAO require a special inflation proposal type, and will
-require a two thirds supermajority instead of the default 50%. 
+Any inflation of ATOM or PHOTON tokens to the Community Pool or a designated
+Treasury DAO beyond the default inflation rate described in the Constitution
+shall require a two thirds supermajority vote of a special inflation governance
+proposal type.
 
 The special inflation proposal can include a description of the purpose of the
 inflation, but cannot include any other modifications to the Cosmos Hub or its
-Constitution.
+Constitution, nor the adoption of any new Treasury DAOs.
 
 ### Rule 15. The Tax System
 
-Tax proceeds are sent to the Community Pool.
+Tax proceeds shall be sent to the Community Pool.
 
 The tax rate is initially 2%, but can be increased up to 50% by governance
 vote.
@@ -269,19 +284,20 @@ vote.
 
 ## Rule 17. Updates to the Cosmos Hub
 
-New updates to the hub should be broken down into independent components and
-discussed/proposed separately with adequate time between, regardless of any
+New updates to the Cosmos Hub should be broken down into independent components
+and discussed/proposed separately with adequate time between, regardless of any
 omnibus whitepaper. 
 
 ## Rule 18. The Implementation
 
-The hub should not have any VM functionality, but be plainly implemented in a
-single garbage collected language as reference (namely Go; and other clients
-can implement it all in another language like Rust).
+The Cosmos Hub shall not have any VM functionality, but shall be plainly
+implemented in a single garbage collected language as reference (namely Go);
+and other clients may implement all or portions of the stack in another
+language like Rust.
 
-The only cryptographic assumptions used by the Cosmos Hub including its
-consensus shall be Ed25519 and Secp256k1 elliptic curves, and RIPEMD160 and
-SHA256 hash functions.
+The only cryptographic assumptions allowed to be used by the Cosmos Hub
+including its consensus protocol shall be Ed25519 and Secp256k1 elliptic
+curves, and RIPEMD160 and SHA256 hash functions.
 
 No zero-knowledge proof systems may be adopted on the Cosmos Hub even if they
 are composed of the approved primitives.
@@ -289,8 +305,8 @@ are composed of the approved primitives.
 ## Rule 19. Compute/storage/memory limitations
 
 For the sake of decentralization, accessibility, accountability, and security,
-the hub and each ICS zone will be restricted such that each can run on a
-commodity machine. 
+the Cosmos Hub and each ICS zone shall be restricted such that each can run on
+a commodity computer.
 
 ## Rule 20. Amendment of the Constitution
 
@@ -447,6 +463,66 @@ Liquid staking somewhat usurps the point of bonded staking, and thus by nature
 its utility is limited. It is already supported through the usage of interchain
 accounts, so that is all that needs to be done.
 
+### Interchain Staking with ATOMs or PHOTONs
+
+This section is from The Shape of Cosmos document (link below).
+
+#### Interchain Staking Inflationary ATOMs
+
+There's one question here that pops up, for readers aware of the economics of
+the Cosmos Hub: why would you "stake" ATOMs on BarChain if you aren't going to
+earn inflationary rewards of ATOMs?
+
+It wouldn't be fair to bypass the Cosmos Hub ATOM inflation tax simply for
+staking those ATOMs on another chain. If that were the case, everyone rational
+would stake their ATOM tokens on a fake zone that did nothing but the bare
+minimum, and would therefore yeild higher returns because it would be easier to
+secure (by virtue of it not doing anything).
+
+Let's say that you could stake to all the validators in proportion to their
+current voting power, or in other words, you could stake on the hub itself.
+I'll call this "auto-staking". For example, if a validator that had 10% of the
+voting power were to get slashed 30% on the Cosmos Hub, everyone who
+auto-staked ATOMs on the Cosmos Hub would get slashed 3%.
+
+So, one solution is to let ATOM holders x-stake, but require them to also
+double-stake on the Cosmos Hub itself via auto-staking. Now, there is no "free
+lunch" to interchain stakers, so they can also earn inflationary ATOMs.
+Triple-staking would not be allowed -- it's not needed for interchain staking,
+and it would make security guarantees worse.
+
+The down-side of auto-staking is that it's a form of "blind staking" -- a loss
+of agency on behalf of the staker to the manual-stakers. If there were 90% of
+ATOMs that were auto-staked, then delegating manually brings 9x the extra
+voting power with it, and so the system becomes overall unstable, and bribing
+with side-channel paybacks would become the norm -- something we want to avoid.
+
+Various forms of interchain-staking with ATOMs can work, but it invites
+yield-seeking capital to hold atoms to stake on various zones, and eventually
+defeats the purpose of having a separate staking token for the hub in the first
+place. The amount or ratio of ATOMs thus x-staked could be limited, but this is
+still a slippery slope.
+
+In short, interchain-staking with ATOMs is not a good idea in general.
+
+#### Interchain Staking pseudo-deflationary PHOTONs
+
+Interchain-staking should be performed with non-inflationary tokens like
+PHOTONS which don't suffer from the above problem/feature.
+
+It's possible to have significantly more value at stake with non-ATOM tokens at
+stake via interchain-staking from the hub. In short, the idea here is to
+respect the sovereignty of a token according to well defined contracts
+explicitly made beforehand that govern that token, such that the zones
+connected to a hub can keep the hub accountable. [XXX more on this, and how
+this is not the case for say, pegged ETH].
+
+Any PHOTONs or native currency tokens that don't inflate exponentially like the
+ATOM token by design can be inflated on the hub and rewarded to ATOM stakers in
+the form of inflationary block rewards. So there is a clear link between the
+market of interchain-staking and value accrual to the ATOM token, even if the
+ATOM token can not be x-staked.
+
 ### About consensus-driven investments
 
 Governance driven funding will fail, like central planning fails. - where-ever
@@ -561,8 +637,11 @@ For more discussion, see
 https://forum.cosmos.network/t/atom-one-constitution-proposal/7514 and
 cosmoshub@googlegroups.com
 
+Also see https://github.com/jaekwon/cosmos_roadmap/tree/master/shape_of_cosmos
+for more a previous essay on interchain staking and other related topics.
+
 # Contributions
 
-* Jae Kwon
-* Paul Susman
-* Manfred Touron
+* Jae Kwon - main author
+* Paul Susman - structure and various contributions
+* Manfred Touron - increase in redelegation
