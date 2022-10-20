@@ -254,8 +254,8 @@ issued PHOTONs shall additionally be inflated and added to the community pool.
 
 Thereafter the PHOTON token shall be inflated at a constant fixed rate equal to
 2% of the initial distribution, forever, and paid to the bonded ATOM holders.
-This inflation rate may be decreased but never increased, except for any
-issuance approved by the special governance procedure.
+This inflation rate may be modified but never increased beyond 2%, except for
+any issuance approved by the special governance procedure.
 
 The PHOTON and ATOM tokens shall be whitelisted as transaction fee payments for
 the Cosmos Hub and all simple-transfer zones.
