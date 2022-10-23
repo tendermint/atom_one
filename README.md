@@ -126,10 +126,8 @@ The root hub chain of the Cosmos Hub is uniquely identified by chainid
 following functions:
 
  * governance voting
- * ATOM staking
+ * ATOM and PHOTON staking
  * ATOM <-> PHOTON conversion
- * ATOM and PHOTON staking and conversion
- * flat PHOTON inflation
  * intra-hub token transfers
  * IBC token transfers
  * ICS1 and ICS2 management
