@@ -242,7 +242,17 @@ parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
 
 The PHOTON distribution shall be created by auto-staking ATOM tokens. In
 general, PHOTON tokens may be converted back into ATOM tokens after waiting the
-standard unbonding period, with exceptions defined in this Constitution.
+standard unbonding period, with exceptions defined in this Article.
+
+The exchange rate formula between PHOTONs and ATOMs will be such that if all
+the ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there
+would be 1 billion PHOTONs. In other words, the number of PHOTONs is capped and
+will never reach 1 billion PHOTONs.
+
+The PHOTON token shall be the only staking token for ICS2 staking. 
+
+The PHOTON token shall be whitelisted as transaction fee payments for the
+Cosmos Hub and all ICS1 and ICS2 hosted blockchains.
 
 If the amount of ATOMs to become unbonded from PHOTONs should exceed 20% of the
 total staked ATOMs toward the Comsos Hub at any moment, the unbonding period
@@ -252,19 +262,9 @@ exceeds the 20%, so as to allow more PHOTONs to become unbonded to ATOMs
 simultaneously. This is intended to prevent large PHOTON holders from
 conducting a hostile takeover of the Cosmos Hub.
 
-The exchange rate formula between PHOTONs and ATOMs will be such that if all
-the ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there
-would be 1 billion PHOTONs. In other words, the number of PHOTONs is capped and
-will never reach 1 billion PHOTONs.
-
-The PHOTON token shall be the only staking token for ICS2 staking. 
-
 PHOTONs bonded for ICS2 hosting according to whitelisted ICS2A and ICS2B
 protocols may vote in Cosmos Hub governance proposals, but their vote
 altogether shall not exceed 50% of the voting power of the staked ATOMs.
-
-The PHOTON token shall be whitelisted as transaction fee payments for the
-Cosmos Hub and all ICS1 and ICS2 hosted blockchains.
 
 ### Article 3.D. Inflation
 
