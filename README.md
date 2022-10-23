@@ -56,7 +56,7 @@ everyone who auto-staked ATOMs on the Cosmos Hub would get slashed 1.5%.
 
 ## Part 1 General Provisions
 
-### Rule 1. Fundamental Principles
+### Article 1.A. Fundamental Principles
 
 This Constitution of the Cosmos Hub, hereinafter “the Constitution” hereby
 establishes the foundations of the governance model, economical model, and
@@ -67,7 +67,7 @@ the Constitution, and each proposal's proponents and all active governance
 voters are required to ensure consistency between such proposals and the
 Constitution.
 
-### Rule 2. Sovereignty of the Cosmos Hub
+### Article 1.B. Sovereignty of the Cosmos Hub
 
 The Cosmos interchain network is composed of many sovereign zones such as the
 Cosmos Hub.
@@ -84,7 +84,7 @@ zones with regards to the pegged tokens originating from said zones, except in
 well defined exceptional circumstances that involve bugs, theft, or harm to the
 Cosmonauts of the Cosmos ecosystem.
 
-### Rule 3. General Mission and Objectives
+### Article 1.C. General Mission and Objectives
 
 The mission of the Cosmos Hub is to create a new world allowing for
 permissionless yet secure interactions between the Cosmonauts of Cosmos in the
@@ -94,7 +94,7 @@ The objective of the Cosmos Hub is to provide a classical BFT proof-of-stake
 multi-token payment and transfer system; and to scale the security of the
 platform to many applications hosted in other zones via Cosmos Hub ICS.
 
-### Rule 4. Cosmonauts
+### Article 1.D. Cosmonauts
 
 Every person has the right to become a Cosmonaut and can freely engage on the
 Cosmos Hub. As such, every Cosmonaut has the right to own at least one address
@@ -104,7 +104,7 @@ Any Cosmonaut can also become a Citizen of the Cosmos Hub by using their
 address to stake ATOMs toward the Cosmos Hub and participate actively in
 governance. The status of citizenship is granted in an autonomous manner.
 
-### Rule 5. Rights, Liberties, and Obligations in the Cosmos Hub
+### Article 1.E. Rights, Liberties, and Obligations in the Cosmos Hub
 
 The Liberty and Property of all Cosmonauts engaging in the Cosmos Hub is hereby
 guaranteed. Any restriction to the Liberty and Property of Citizens on the
@@ -119,7 +119,7 @@ ATOM property by partial or full slashing according to their voting activity.
 
 ## Part 2 Governance
 
-### Rule 6. The Cosmos Hub Chain
+### Article 2.A. The Cosmos Hub Chain
 
 The root hub chain of the Cosmos Hub is uniquely identified by chainid
 "cosmoshub". This chain commits and executes transactions that serve the
@@ -134,7 +134,7 @@ following functions:
  * IBC token transfers
  * ICS1 and ICS2 management
 
-### Rule 7. Decision-making
+### Article 2.B. Decision-making
 
 The working language of Cosmos Hub governance is English.
 
@@ -144,7 +144,7 @@ governance Proposals.
 The governance process must extend the voting deadline to ensure at least 2
 weeks of voting after the minimum quorum has been met.
 
-### Rule 8. Air-drops and forks
+### Article 2.C. Air-drops and forks
 
 Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
 of new tokens to any chain using the distribution of any token on the Cosmos
@@ -154,7 +154,7 @@ Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
 portion by partial or full slashing based on their cryptographic voting
 activity according to well defined principles at any time.
 
-### Rule 9. The Interchain Security (ICS) Systems
+### Article 2.D. The Interchain Security (ICS) Systems
 
 While the ATOM token is the only token allowed for staking on the Cosmos Hub,
 thereby allowing validators to also partake in ICS2 hosting of Consumer Chains,
@@ -180,7 +180,7 @@ voting through the PHOTON token shall be represented by a distribution of
 choices. Staking token holders of the zone who abstain or do not vote must
 count toward the ABSTAIN option on the Cosmos Hub.
 
-### Rule 10. Treasury DAOs
+### Article 2.E. Treasury DAOs
 
 The Cosmos Hub governance may establish one or more transparent and accountable
 Treasury DAOs by simple majority vote.
@@ -217,7 +217,7 @@ on the Cosmos Hub.
 
 ## Part 3 Economics
 
-### Rule 11. Economic model
+### Article 3.A. Economic model
 
 The one and only economic incentive model of the Cosmos Hub is the collection
 of market-based transaction fees from a large number of transactions across all
@@ -225,7 +225,7 @@ the chains secured by the staking of ATOM tokens on the Cosmos Hub including
 ICS1 hosted blockchains, and the staking of PHOTON tokens for ICS2 secured
 blockchains.
 
-### Rule 12. The ATOM Token
+### Article 3.B. The ATOM Token
 
 The ATOM token functions as voting shares, economic incentive shares, and
 security bond for the Cosmos Hub.
@@ -266,7 +266,7 @@ If the amount of ATOMs staked using interchain accounts exceeds 20% (the
 shall automatically increase by 1% per month. The Liquid Staking Factor
 parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
 
-### Rule 13. The PHOTON Token
+### Article 3.C. The PHOTON Token
 
 The PHOTON distribution shall be created by auto-staking ATOM tokens. In
 general, PHOTON tokens may be converted back into ATOM tokens after waiting the
@@ -293,7 +293,7 @@ altogether shall not exceed 50% of the voting power of the staked ATOMs.
 The PHOTON token shall be whitelisted as transaction fee payments for the
 Cosmos Hub and all ICS1 and ICS2 hosted blockchains.
 
-### Rule 14. Inflation
+### Article 3.D. Inflation
 
 Any inflation of ATOM tokens to the Community Pool or a designated Treasury DAO
 beyond the default inflation rate described in the Constitution shall require a
@@ -303,23 +303,23 @@ The special inflation proposal can include a description of the purpose of the
 inflation, but cannot include any other modifications to the Cosmos Hub or its
 Constitution, nor the adoption of any new Treasury DAOs.
 
-### Rule 15. The Tax System
+### Article 3.E. The Common Pool 
 
-Tax proceeds shall apply to transaction fees and inflationary ATOMs, and shall
-be sent to the Community Pool.
+The Common Pool tax proceeds shall apply to transaction fees and inflationary
+ATOMs, and shall be sent to the Community Pool.
 
-The tax rate shall initially be 2%, but can be increased up to 50% by two
-thirds supermajority of the Cosmos Hub governance.
+The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
+by two thirds supermajority of the Cosmos Hub governance.
 
 ## Part 4 Final Dispositions
 
-## Rule 17. Updates to the Cosmos Hub
+## Article 4.A. Updates to the Cosmos Hub
 
 New updates to the Cosmos Hub should be broken down into independent components
 and discussed/proposed separately with adequate time between, regardless of any
 omnibus whitepaper. 
 
-## Rule 18. The Implementation
+## Article 4.B. The Implementation
 
 The Cosmos Hub shall not have any VM functionality, but shall be plainly
 implemented in a single garbage collected language as reference (namely Go);
@@ -333,13 +333,16 @@ curves, and RIPEMD160 and SHA256 hash functions.
 No zero-knowledge proof systems may be adopted on the Cosmos Hub even if they
 are composed of the approved primitives.
 
-## Rule 19. Compute/storage/memory limitations
+The rules of this article may only be changed by two thirds supermajority vote
+of the Cosmos Hub.
+
+## Article 4.C. Compute/storage/memory limitations
 
 For the sake of decentralization, accessibility, accountability, and security,
 the Cosmos Hub and each ICS zone shall be restricted such that each can run on
 a commodity computer.
 
-## Rule 20. Amendment of the Constitution
+## Article 4.D. Amendment of the Constitution
 
 This constitution may be modified or additional parts and rules appended by two
 thirds supermajority of Cosmos Hub governance.
@@ -539,7 +542,8 @@ still a slippery slope.
 
 In short, interchain-staking with ATOMs is difficult to get right. This
 constitution attempts to balance the desire for ATOM ICS2 staking and the need
-to ensure security of the Cosmos Hub.
+to ensure security of the Cosmos Hub by extending the PHOTON to ATOM unbonding
+period if a large conversion is detected.
 
 ### About consensus-driven investments
 
