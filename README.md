@@ -245,9 +245,10 @@ general, PHOTON tokens may be converted back into ATOM tokens after waiting the
 standard unbonding period, with exceptions defined in this Constitution.
 
 If the amount of ATOMs to become unbonded from PHOTONs should exceed 20% of the
-total staked ATOMs toward the Comsos Hub, the unbonding period for these ATOMs
-shall be extended by 4 weeks, and an additional week for every 5% that exceeds
-the 20%, so as to allow more PHOTONs to become unbonded to ATOMs
+total staked ATOMs toward the Comsos Hub at any moment, the unbonding period
+for these ATOMs shall be extended such that they all become unbonded after 4
+weeks from the moment of excess, and an additional week for every 5% that
+exceeds the 20%, so as to allow more PHOTONs to become unbonded to ATOMs
 simultaneously. This is intended to prevent large PHOTON holders from
 conducting a hostile takeover of the Cosmos Hub.
 
