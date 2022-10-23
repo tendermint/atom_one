@@ -122,9 +122,11 @@ following functions:
  * governance voting
  * ATOM staking
  * ATOM <-> PHOTON conversion
+ * ATOM and PHOTON staking and conversion
+ * flat PHOTON inflation
  * intra-hub token transfers
  * IBC token transfers
- * ICS orchestration and PHOTON staking
+ * ICS1 and ICS2 management
 
 ### Rule 7. Decision-making
 
