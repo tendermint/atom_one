@@ -307,8 +307,8 @@ Sovereign zones secured by ICS2B systems must allow its delegators' votes to be
 represented pro-rata according to the explicit and manual voting activity via
 the primary staking token of that zone; thus its participation in Cosmos Hub
 voting through the PHOTON token shall be represented by a distribution of
-choices. Staking token holders of the zone who abstain or do not vote must
-count toward the ABSTAIN option on the Cosmos Hub.
+choices. Staking token holders of the zone who abstain or do not vote must also
+count toward non-voting (rather than the ABSTAIN option) on the Cosmos Hub.
 
 ## Part 4 Final Dispositions
 
