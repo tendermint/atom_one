@@ -21,13 +21,13 @@ ordain and establish this Constitution for the Cosmos Hub.
 Cosmos is the interchain network composed of many sovereign zones connected by
 IBC.
 
-A zone is an independent chain or an application hosted on a parent chain with
-a well defined governing body or bodies that dictate the economic rules
-internal to that zone. A zone by definition is sovereign or partially
-sovereign. A treasury DAO of the Cosmos Hub is partially sovereign.
+A zone is an independent chain (or an application hosted on a parent chain)
+with a well defined governing body or bodies that dictate the governance and
+economic rules internal to that zone. A zone by definition is sovereign or
+partially sovereign. A treasury DAO of the Cosmos Hub is partially sovereign.
 
 IBC is short for Interchain Blockchain Communication, and includes all
-protocols that allow one chain to communicate state or messages with anoother
+protocols that allow one chain to communicate state or messages with another
 chain by tracking the consensus state of the other.
 
 ICS is short for Interchain Security, and includes all protocols that allow the
@@ -41,6 +41,12 @@ conditions are always submitted to a root chain.
 ICS2 includes all protocols where slash conditions for complex failure
 scenarios of one validator set are handled by another validator set, where
 slashing affects tokens on the latter validator set.
+
+ICS2A includes all protocols of ICS2 where the ownership of PHOTONs are
+entirely managed on the Cosmos Hub.
+
+ICS2B includes all protocols of ICS2 where the ownership of PHOTONs are
+entirely managed by logic of the other chain.
 
 Auto-staking is in spirit akin to staking across all current validators in
 proportion to their voting power. For example, if a validator that had 10% of
@@ -154,13 +160,25 @@ While the ATOM token is the only token allowed for staking on the Cosmos Hub,
 thereby allowing validators to also partake in ICS2 hosting of Consumer Chains,
 the PHOTON token is the only token allowed for ICS2 hosting.
 
-10% of the transaction fees earned from ICS2 hosting shall be paid to the ATOM
+2% of the transaction fees earned from ICS2 hosting shall be paid to the ATOM
 holders staked toward the Cosmos Hub (the "ICS2 Tax"). The ICS2 Tax parameter
 may be adjusted by a two thirds supermajority of Cosmos Hub governance, with
 the constraint that it may not increase by more than 1% per year. For clarity,
-if the ICS2 Tax is 10% today, it may not be higher than 11% within a year.
+if the ICS2 Tax is 2% today, it may not be higher than 3% within a year.
 
-The ICS2 system must ensure a reasonable Nakamoto coefficient for each zone.
+The ICS2A systems must ensure a reasonable Nakamoto coefficient for each zone.
+This shall be accomplished, among other means, by selecting validators from
+similar tiers of bonded photons, where the largest tier is no larger than 3
+times the size of the smallest tier. Each validator may elect to disclose their
+true geographic location as well as the location of all backup systems, or they
+may elect to remain geographically unlocated.
+
+Sovereign zones secured by ICS2B systems must allow its delegators' votes to be
+represented pro-rata according to the explicit and manual voting activity via
+the primary staking token of that zone; thus its participation in Cosmos Hub
+voting through the PHOTON token shall be represented by a distribution of
+choices. Staking token holders of the zone who abstain or do not vote must
+count toward the ABSTAIN option on the Cosmos Hub.
 
 ### Rule 10. Treasury DAOs
 
@@ -250,9 +268,16 @@ parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
 
 ### Rule 13. The PHOTON Token
 
-The PHOTON distribution shall be created by auto-staking ATOM tokens. PHOTON
-tokens may be converted back into ATOM tokens after waiting the standard
-unbonding period.
+The PHOTON distribution shall be created by auto-staking ATOM tokens. In
+general, PHOTON tokens may be converted back into ATOM tokens after waiting the
+standard unbonding period, with exceptions defined in this Constitution.
+
+If the amount of ATOMs to become unbonded from PHOTONs should exceed 20% of the
+total staked ATOMs toward the Comsos Hub, the unbonding period for these ATOMs
+shall be extended by 4 weeks, and an additional week for every 5% that exceeds
+the 20%, so as to allow more PHOTONs to become unbonded to ATOMs
+simultaneously. This is intended to prevent large PHOTON holders from
+conducting a hostile takeover of the Cosmos Hub.
 
 The exchange rate formula between PHOTONs and ATOMs will be such that if all
 the ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there
@@ -261,7 +286,9 @@ will never reach 1 billion PHOTONs.
 
 The PHOTON token shall be the only staking token for ICS2 staking. 
 
-PHOTONs bonded for ICS2 hosting may vote in Cosmos Hub governance proposals.
+PHOTONs bonded for ICS2 hosting according to whitelisted ICS2A and ICS2B
+protocols may vote in Cosmos Hub governance proposals, but their vote
+altogether shall not exceed 50% of the voting power of the staked ATOMs.
 
 The PHOTON token shall be whitelisted as transaction fee payments for the
 Cosmos Hub and all ICS1 and ICS2 hosted blockchains.
