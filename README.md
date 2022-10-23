@@ -152,33 +152,7 @@ Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
 portion by partial or full slashing based on their cryptographic voting
 activity according to well defined principles at any time.
 
-### Article 2.D. The Interchain Security (ICS) Systems
-
-While the ATOM token is the only token allowed for staking on the Cosmos Hub,
-thereby allowing validators to also partake in ICS2 hosting of Consumer Chains,
-the PHOTON token is the only token allowed for ICS2 hosting.
-
-2% of the transaction fees earned from ICS2 hosting shall be paid to the ATOM
-holders staked toward the Cosmos Hub (the "ICS2 Tax"). The ICS2 Tax parameter
-may be adjusted by a two thirds supermajority of Cosmos Hub governance, with
-the constraint that it may not increase by more than 1% per year. For clarity,
-if the ICS2 Tax is 2% today, it may not be higher than 3% within a year.
-
-The ICS2A systems must ensure a reasonable Nakamoto coefficient for each zone.
-This shall be accomplished, among other means, by selecting validators from
-similar tiers of bonded photons, where the largest tier is no larger than 3
-times the size of the smallest tier. Each validator may elect to disclose their
-true geographic location as well as the location of all backup systems, or they
-may elect to remain geographically unlocated.
-
-Sovereign zones secured by ICS2B systems must allow its delegators' votes to be
-represented pro-rata according to the explicit and manual voting activity via
-the primary staking token of that zone; thus its participation in Cosmos Hub
-voting through the PHOTON token shall be represented by a distribution of
-choices. Staking token holders of the zone who abstain or do not vote must
-count toward the ABSTAIN option on the Cosmos Hub.
-
-### Article 2.E. Treasury DAOs
+### Article 2.D. Treasury DAOs
 
 The Cosmos Hub governance may establish one or more transparent and accountable
 Treasury DAOs by simple majority vote.
@@ -308,6 +282,32 @@ ATOMs, and shall be sent to the Community Pool.
 
 The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
 by two thirds supermajority of the Cosmos Hub governance.
+
+### Article 2.F. The Interchain Security (ICS) Systems
+
+While the ATOM token is the only token allowed for staking on the Cosmos Hub,
+thereby allowing validators to also partake in ICS2 hosting of Consumer Chains,
+the PHOTON token is the only token allowed for ICS2 hosting.
+
+2% of the transaction fees earned from ICS2 hosting shall be paid to the ATOM
+holders staked toward the Cosmos Hub (the "ICS2 Tax"). The ICS2 Tax parameter
+may be adjusted by a two thirds supermajority of Cosmos Hub governance, with
+the constraint that it may not increase by more than 1% per year. For clarity,
+if the ICS2 Tax is 2% today, it may not be higher than 3% within a year.
+
+The ICS2A systems must ensure a reasonable Nakamoto coefficient for each zone.
+This shall be accomplished, among other means, by selecting validators from
+similar tiers of bonded photons, where the largest tier is no larger than 3
+times the size of the smallest tier. Each validator may elect to disclose their
+true geographic location as well as the location of all backup systems, or they
+may elect to remain geographically unlocated.
+
+Sovereign zones secured by ICS2B systems must allow its delegators' votes to be
+represented pro-rata according to the explicit and manual voting activity via
+the primary staking token of that zone; thus its participation in Cosmos Hub
+voting through the PHOTON token shall be represented by a distribution of
+choices. Staking token holders of the zone who abstain or do not vote must
+count toward the ABSTAIN option on the Cosmos Hub.
 
 ## Part 4 Final Dispositions
 
