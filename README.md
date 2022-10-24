@@ -133,12 +133,18 @@ following functions:
  * IBC token transfers
  * ICS1 and ICS2 management
 
-### Article 2.B. Decision-making
+### Article 2.B. Cosmos Hub governance
 
 The working language of Cosmos Hub governance is English.
 
-The provisions of this Constitution are to be implemented further though
-governance Proposals.
+The quorum necessary for a proposal to be valid shall depend only on number of
+bonded ATOMs, and not on the number of PHOTONs.
+
+The total voting power for all bonded PHOTONs shall not exceed the total voting
+power of all staked ATOMs.
+
+PHOTONs bonded for ICS2 hosting according to whitelisted ICS2A and ICS2B
+protocols may vote in Cosmos Hub governance proposals.
 
 The governance process must extend the voting deadline to ensure at least 2
 weeks of voting after the minimum quorum has been met.
@@ -281,10 +287,6 @@ weeks from the moment of excess, and an additional week for every 5% that
 exceeds the 20%, so as to allow more PHOTONs to become unbonded to ATOMs
 simultaneously. This is intended to prevent large PHOTON holders from
 conducting a hostile takeover of the Cosmos Hub.
-
-PHOTONs bonded for ICS2 hosting according to whitelisted ICS2A and ICS2B
-protocols may vote in Cosmos Hub governance proposals, but their vote
-altogether shall not exceed 50% of the voting power of the staked ATOMs.
 
 ### Article 3.D. Inflation
 
