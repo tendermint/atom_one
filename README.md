@@ -48,13 +48,12 @@ entirely managed on the Cosmos Hub.
 ICS2B includes all protocols of ICS2 where the ownership of PHOTONs are
 entirely managed by logic of the other chain.
 
-Auto-staking is similar to staking across all current validators in proportion
-to their voting power. For example, if a validator that had 10% of the voting
-power were to get slashed 30% on the Cosmos Hub, and 50% of ATOMs were either
-staked onto the Cosmos Hub or free (not bonded to PHOTONs), everyone who
-auto-staked ATOMs on the Cosmos Hub would get slashed 1.5%.  Inflationary ATOMs
-are paid to auto-stakers such that they do not suffer from the inflation rate
-of ATOMs.
+Auto-staking is staking across all current validators in proportion to their
+voting power. For example, if a validator that had 10% of the voting power were
+to get slashed 30% on the Cosmos Hub, and 50% of ATOMs were either staked onto
+the Cosmos Hub or free (not bonded to PHOTONs), everyone who auto-staked ATOMs
+on the Cosmos Hub would get slashed 1.5%. Inflationary ATOMs are paid to
+auto-stakers such that they do not suffer from the inflation rate of ATOMs.
 
 ## Part 1 General Provisions
 
@@ -248,15 +247,15 @@ bonding, transaction fees are not paid to the ATOM to PHOTON bonders, and the
 bonded ATOMs are not included in the target two thirds ATOMs staked for the
 Cosmos Hub.
 
-In general, PHOTON tokens may be converted back into ATOM tokens after waiting
-the standard unbonding period, with exceptions defined in this Article.
-
 The exchange rate formula between PHOTONs and ATOMs will be such that if all
 the ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there
 would always be 1 billion PHOTONs. This is a succinct but true invariant of the
 system. Consequently, the number of PHOTONs is capped and will never reach 1
 billion PHOTONs (because the number of ATOMs in existence must be greater than
 0 for there to be any validators).
+
+In general, PHOTON tokens may be converted back into ATOM tokens after waiting
+the standard unbonding period, with exceptions defined in this Article.
 
 The PHOTON token shall be the only staking token for ICS2 staking. 
 
@@ -370,6 +369,10 @@ thirds supermajority of Cosmos Hub governance.
 # COMMENTARY
 
 _This is not part of the Constitution_
+
+## About the PHOTON token
+
+The PHOTON token is intended to be a deflationary representation of ATOMs.
 
 ## Comments from Jae Kwon
 
