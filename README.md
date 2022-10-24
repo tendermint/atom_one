@@ -602,7 +602,7 @@ The world would not accept such a policy toward central planning, and we should
 not accept it either, as it will lead to sure failure not only of the Cosmos
 Hub, but of the entire ecosystem.
 
-### About the mark of the beast
+### How to immunize against the mark of the beast
 
 The powers of the world as represented by the WEF is intent on implementing the
 mark of the beast. As per the Book of Revelation,
