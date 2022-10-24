@@ -172,8 +172,8 @@ the Cosmos Hub as a m-of-n multisig account where n is at least 3 and m is at
 least 1/2 of n, where each signatory is an authorized member of the Treasury
 DAO and Citizen of the Cosmos Hub.
 
-The Treasury DAO shall be composed of Cosmonauts, and at the top Executive Board
-level be composed of one or more Citizens. All Cosmonauts and Citizens of
+The Treasury DAO shall be composed of Cosmonauts, and at the top Executive
+Board level be composed of one or more Citizens. All Cosmonauts and Citizens of
 Treasury DAOs including their Oversight Committee must have public and known
 real personal identities. 
 
@@ -202,21 +202,20 @@ on the Cosmos Hub.
 
 The one and only economic incentive model of the Cosmos Hub is the collection
 of market-based transaction fees from a large number of transactions across all
-the chains secured by the staking of ATOM tokens on the Cosmos Hub including
-ICS1 hosted blockchains, and the staking of PHOTON tokens for ICS2 secured
-blockchains.
+the chains secured by the staking of ATOMs on the Cosmos Hub including ICS1
+hosted blockchains, and the staking of PHOTONs for ICS2 secured blockchains.
 
 ### Article 3.B. The ATOM Token
 
-The ATOM token functions as voting shares, economic incentive shares, and
-security bond for the Cosmos Hub.
+The ATOM functions as voting shares, economic incentive shares, and security
+bond for the Cosmos Hub.
 
 To preserve the security and identity of the acting governance and validator
-set, the inflation rate of the ATOM token is made to vary over time to target
-2/3 of all ATOMs. The maximum inflation rate is 20% non-compounded per year.
-There is no minimum inflation rate, and it can even be negative (deflationary).
+set, the inflation rate of the ATOM is made to vary over time to target 2/3 of
+all ATOMs. The maximum inflation rate is 20% non-compounded per year.  There is
+no minimum inflation rate, and it can even be negative (deflationary).
 
-Inflated ATOM tokens are paid to bonded ATOM holders in proportion to each
+Inflated ATOMs are paid to bonded ATOM holders in proportion to each
 delegator's staking amount.
 
 Staked ATOMs are converted to Bonded Share Units.
@@ -231,8 +230,8 @@ height/round/step, with evidence collected during the unbonding period; the
 penalty shall range from +0% to 100%, the latter when 2/3 of voting power
 double-signs.
 
-Complex signing failures (those that require +1/3 to coordinate) shall result in
-complete slashing.
+Complex signing failures (those that require +1/3 to coordinate) shall result
+in complete slashing.
 
 Liquid staking may only be supported through interchain accounts (aka
 non-native liquid staking).
@@ -253,7 +252,7 @@ TODO: simplify the above two rules.
 ### Article 3.C. The PHOTON Token
 
 The PHOTON distribution shall be created by mechanism similar to auto-staking
-ATOM tokens called "ATOM to PHOTON bonding". For the purpose of ATOM to PHOTON
+ATOMs called "ATOM to PHOTON bonding". For the purpose of ATOM to PHOTON
 bonding, transaction fees are not paid to the ATOM to PHOTON bonders, and the
 bonded ATOMs are not included in the target two thirds ATOMs staked for the
 Cosmos Hub.
@@ -265,12 +264,12 @@ system. Consequently, the number of PHOTONs is capped and will never reach 1
 billion PHOTONs (because the number of ATOMs in existence must be greater than
 0 for there to be any validators).
 
-In general, PHOTON tokens may be converted back into staked ATOM tokens after
-waiting the standard unbonding period, with exceptions defined in this article.
-To get free unbonded ATOMs back, one must thereafter undelegate from the Cosmos
-Hub validator and wait another unbonding period.
+In general, PHOTONs may be converted back into staked ATOMs after waiting the
+standard unbonding period, with exceptions defined in this article.  To get
+free unbonded ATOMs back, one must thereafter undelegate from the Cosmos Hub
+validator and wait another unbonding period.
 
-The PHOTON token shall be the only staking token for ICS2 staking. 
+The PHOTON shall be the only staking token for ICS2 staking. 
 
 When PHOTONs are burned via ICS2 slashing on a zone, or when burned as
 transaction fees, or burned for any reason, their burn amount must be reported
@@ -282,8 +281,8 @@ Cosmos Hub does not change the number of PHOTONs in circulation, such that the
 relative market cap of the remaining ATOMs can be better preserved for the sake
 of the Cosmos Hub's security.
 
-The PHOTON token shall be whitelisted as transaction fee payments for the
-Cosmos Hub and all ICS1 and ICS2 hosted blockchains.
+The PHOTON shall be whitelisted as transaction fee payments for the Cosmos Hub
+and all ICS1 and ICS2 hosted blockchains.
 
 If the amount of ATOMs to become unbonded from PHOTONs should exceed 20% of the
 total staked ATOMs toward the Comsos Hub at any moment, the unbonding period
@@ -295,7 +294,7 @@ conducting a hostile takeover of the Cosmos Hub.
 
 ### Article 3.D. Inflation
 
-Any inflation of ATOM tokens to the Community Pool or a designated Treasury DAO
+Any inflation of ATOMs to the Community Pool or a designated Treasury DAO
 beyond the default inflation rate described in the Constitution shall require a
 two thirds supermajority vote of a special inflation governance proposal type.
 
@@ -313,9 +312,9 @@ by two thirds supermajority of the Cosmos Hub governance.
 
 ### Article 2.F. The Interchain Security (ICS) Systems
 
-While the ATOM token is the only token allowed for staking on the Cosmos Hub,
-thereby allowing validators to also partake in ICS2 hosting of Consumer Chains,
-the PHOTON token is the only token allowed for ICS2 hosting.
+While the ATOM is the only token allowed for staking on the Cosmos Hub, thereby
+allowing validators to also partake in ICS2 hosting of Consumer Chains, the
+PHOTON is the only token allowed for ICS2 hosting.
 
 2% of the transaction fees earned from ICS2 hosting shall be paid to the ATOM
 holders staked toward the Cosmos Hub (the "ICS2 Tax"). The ICS2 Tax parameter
@@ -333,9 +332,9 @@ may elect to remain geographically unlocated.
 Sovereign zones secured by ICS2B systems must allow its delegators' votes to be
 represented pro-rata according to the explicit and manual voting activity via
 the primary staking token of that zone; thus its participation in Cosmos Hub
-voting through the PHOTON token shall be represented by a distribution of
-choices. Staking token holders of the zone who abstain or do not vote must also
-count toward non-voting (rather than the ABSTAIN option) on the Cosmos Hub.
+voting through the PHOTON shall be represented by a distribution of choices.
+Staking token holders of the zone who abstain or do not vote must also count
+toward non-voting (rather than the ABSTAIN option) on the Cosmos Hub.
 
 ## Part 4 Final Dispositions
 
@@ -379,9 +378,9 @@ thirds supermajority of Cosmos Hub governance.
 
 _This is not part of the Constitution_
 
-## About the PHOTON token
+## About the PHOTON
 
-The PHOTON token is intended to be a deflationary representation of ATOMs.
+The PHOTON is intended to be a deflationary representation of ATOMs.
 
 ## Comments from Jae Kwon
 
@@ -423,10 +422,10 @@ each).
 
 ### The need for hubs
 
-Say there are 10,000 zones. Say a zone fails and it requires manual intervention.
-With 10,000 IBC connections you require 10,000 zones to all agree on recovery
-procedure; will never happen. But a zone connected to a more secure hub will be
-protected when it needs intervention.
+Say there are 10,000 zones. Say a zone fails and it requires manual
+intervention.  With 10,000 IBC connections you require 10,000 zones to all
+agree on recovery procedure; will never happen. But a zone connected to a more
+secure hub will be protected when it needs intervention.
 
 Another need for hubs; uniformity of guarantees. You need a hub to coordinate
 shard zones where governance/policy and staking gets applied to all shards.
@@ -521,8 +520,8 @@ There’s much more money in circulation than the market cap of VISA/IBM/FED
 combined.
 
 Finally, with the rollout of ICS1 and ICS2, simple-transfer zones and other
-application zones, the inflation rate of the ATOM token may even become
-negative to maintain the target of 2/3 bonding. 
+application zones, the inflation rate of the ATOM may even become negative to
+maintain the target of 2/3 bonding. 
 
 Liquid staking somewhat usurps the point of bonded staking, and thus by nature
 its utility is limited. It is already supported through the usage of interchain
@@ -542,9 +541,9 @@ earn inflationary rewards of ATOMs?
 
 It wouldn't be fair to bypass the Cosmos Hub ATOM inflation tax simply for
 staking those ATOMs on another chain. If that were the case, everyone rational
-would stake their ATOM tokens on a fake zone that did nothing but the bare
-minimum, and would therefore yeild higher returns because it would be easier to
-secure (by virtue of it not doing anything).
+would stake their ATOMs on a fake zone that did nothing but the bare minimum,
+and would therefore yeild higher returns because it would be easier to secure
+(by virtue of it not doing anything).
 
 Let's say that you could stake to all the validators in proportion to their
 current voting power, or in other words, you could stake on the hub itself.
@@ -623,9 +622,10 @@ agenda, and this awareness is growing exponentially.
 
 This control grid was leaked by whistleblower Senator Larry McDonald in the
 70's, whose plane was soon after shot down.
-[(ODY)](https://odysee.com/@Commentator:e4/Former_US_Congressman_Larry_McDonald:1)[(TWT)](https://twitter.com/Xx17965797N/status/1578662395358384128?s=20&t=MrwxzKymkKv6ehdfhvKlAA). The "monolithic and
-ruthless conspiracy that relies on covert means" was leaked before by JFK who
-was assassinated in 1963. [(ODY)](https://odysee.com/@Real_Solutions:b/JFK's-Monolithic-Conspiracy-Revelation:7)[(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
+[(ODY)](https://odysee.com/@Commentator:e4/Former_US_Congressman_Larry_McDonald:1)[(TWT)](https://twitter.com/Xx17965797N/status/1578662395358384128?s=20&t=MrwxzKymkKv6ehdfhvKlAA).
+The "monolithic and ruthless conspiracy that relies on covert means" was leaked
+before by JFK who was assassinated in 1963.
+[(ODY)](https://odysee.com/@Real_Solutions:b/JFK's-Monolithic-Conspiracy-Revelation:7)[(YT)](https://www.youtube.com/watch?v=RhkjYJAHCjM).
 Now we have experienced the NWO control grid by the WEF, and its young global
 leaders, such as Fauci, Gates, Gavin Newsom, Trudeau; and even experiencing the
 war between Zelenski and Putin. The WEF, whose leader Schwab boasted about
