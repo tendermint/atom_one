@@ -48,11 +48,13 @@ entirely managed on the Cosmos Hub.
 ICS2B includes all protocols of ICS2 where the ownership of PHOTONs are
 entirely managed by logic of the other chain.
 
-Auto-staking is in spirit akin to staking across all current validators in
-proportion to their voting power. For example, if a validator that had 10% of
-the voting power were to get slashed 30% on the Cosmos Hub, and 50% of ATOMs
-were either staked onto the Cosmos Hub or free (not bonded to PHOTONs),
-everyone who auto-staked ATOMs on the Cosmos Hub would get slashed 1.5%.
+Auto-staking is similar to staking across all current validators in proportion
+to their voting power. For example, if a validator that had 10% of the voting
+power were to get slashed 30% on the Cosmos Hub, and 50% of ATOMs were either
+staked onto the Cosmos Hub or free (not bonded to PHOTONs), everyone who
+auto-staked ATOMs on the Cosmos Hub would get slashed 1.5%.  Inflationary ATOMs
+are paid to auto-stakers such that they do not suffer from the inflation rate
+of ATOMs.
 
 ## Part 1 General Provisions
 
@@ -240,16 +242,33 @@ parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
 
 ### Article 3.C. The PHOTON Token
 
-The PHOTON distribution shall be created by auto-staking ATOM tokens. In
-general, PHOTON tokens may be converted back into ATOM tokens after waiting the
-standard unbonding period, with exceptions defined in this Article.
+The PHOTON distribution shall be created by mechanism similar to auto-staking
+ATOM tokens called "ATOM to PHOTON bonding". For the purpose of ATOM to PHOTON
+bonding, transaction fees are not paid to the ATOM to PHOTON bonders, and the
+bonded ATOMs are not included in the target two thirds ATOMs staked for the
+Cosmos Hub.
+
+In general, PHOTON tokens may be converted back into ATOM tokens after waiting
+the standard unbonding period, with exceptions defined in this Article.
 
 The exchange rate formula between PHOTONs and ATOMs will be such that if all
 the ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there
-would be 1 billion PHOTONs. In other words, the number of PHOTONs is capped and
-will never reach 1 billion PHOTONs.
+would always be 1 billion PHOTONs. This is a succinct but true invariant of the
+system. Consequently, the number of PHOTONs is capped and will never reach 1
+billion PHOTONs (because the number of ATOMs in existence must be greater than
+0 for there to be any validators).
 
 The PHOTON token shall be the only staking token for ICS2 staking. 
+
+When PHOTONs are burned via ICS2 slashing on a zone, or when burned as
+transaction fees, or burned for any reason, their burn amount must be reported
+back to the Cosmos Hub via IBC. The amount will be deducted from the PHOTON
+balance of the zone. Because of the invariant that there shall always be 1
+billion PHOTON equivalent, burning PHOTONs in this way is beneficial to the
+ATOM holders. On the other hand, burning ATOMs say through slashing on the
+Cosmos Hub does not change the number of PHOTONs in circulation, such that the
+relative market cap of the remaining ATOMs can be better preserved for the sake
+of the Cosmos Hub's security.
 
 The PHOTON token shall be whitelisted as transaction fee payments for the
 Cosmos Hub and all ICS1 and ICS2 hosted blockchains.
