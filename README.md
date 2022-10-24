@@ -149,6 +149,8 @@ protocols may vote in Cosmos Hub governance proposals.
 The governance process must extend the voting deadline to ensure at least 2
 weeks of voting after the minimum quorum has been met.
 
+TODO: fill in rules of cosmoshub4 governance.
+
 ### Article 2.C. Air-drops and forks
 
 Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
@@ -237,13 +239,16 @@ non-native liquid staking).
 
 To limit the amount of liquid staked tokens so as to reduce systemic risk from
 liquid staking, there shall be imposed a 5% tax (the "Liquid Staking Tax") on
-all rewards paid out to staked interchain accounts. This Liquid Staking Tax
-parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub. 
+all rewards paid out to staked interchain accounts at time of reward
+withdrawal. This Liquid Staking Tax parameter may be adjusted by a two thirds
+supermajority vote of the Cosmos Hub. 
 
 If the amount of ATOMs staked using interchain accounts exceeds 20% (the
 "Liquid Staking Factor") of the total staked ATOMs, the Liquid Staking Tax
 shall automatically increase by 1% per month. The Liquid Staking Factor
 parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
+
+TODO: simplify the above two rules.
 
 ### Article 3.C. The PHOTON Token
 
