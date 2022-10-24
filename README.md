@@ -254,8 +254,10 @@ system. Consequently, the number of PHOTONs is capped and will never reach 1
 billion PHOTONs (because the number of ATOMs in existence must be greater than
 0 for there to be any validators).
 
-In general, PHOTON tokens may be converted back into ATOM tokens after waiting
-the standard unbonding period, with exceptions defined in this Article.
+In general, PHOTON tokens may be converted back into staked ATOM tokens after
+waiting the standard unbonding period, with exceptions defined in this article.
+To get free unbonded ATOMs back, one must thereafter undelegate from the Cosmos
+Hub validator and wait another unbonding period.
 
 The PHOTON token shall be the only staking token for ICS2 staking. 
 
