@@ -10,6 +10,9 @@ the submission of this proposal until 2 weeks after the voting period has
 complete, during which time proposals in conflict with the spirit of ATOM ONE
 should be rejected.
 
+A 2/3rd majority is vote where more than 2/3rd of all participating staked atoms 
+voted YES and the vote is above the current governance quorum value.
+
 The spirit of ATOM ONE are as follows:
 
  * Any proposal to inflate the amount of ATOMs beyond the default inflation
