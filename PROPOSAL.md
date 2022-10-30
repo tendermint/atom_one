@@ -37,5 +37,8 @@ a proposal that requires a two thirds majority of YES votes as according to
 above items, but does not meet the two thirds majority shall be deemed to have
 failed, even if it passes with a one half simple majority. 
 
+Thus, self abiding, this proposal also requires an explicit two thirds 
+supermajority YES vote to pass.
+
 Improvements to the ATOM ONE constitution should be coordinated primarily by
 pull requests to the github repo: github.com/tendermint/atom_one 
