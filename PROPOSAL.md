@@ -27,10 +27,13 @@ The spirit of ATOM ONE are as follows:
    pass. 
 
  * Any proposal to install a constitution for the Cosmos Hub must focus
-   primarily on security, and secondarily on increasing adoption as measured by
-   the number of paid transactions on the blockchains secured by ICS
-   (interchain security), as well as enabling permissionless opt-in innovation
-   in new zones.
+   primarily on security, and secondarily on increasing the value of the blockspace 
+   secured by ATOM, as well as enabling permissionless opt-in innovation
+   in new zones. The value of blockspace can be measure by fee paying transactions 
+   that pass through the distribution module and by other innovations like 
+   such blockproposer auctions, priority auctions, novel alternatives to fee 
+   markets, etc. The core goal is increasing the amount of value passed to stakers 
+   over time.
 
 Until the governance mechanism is improved to allow for this type of proposal,
 a proposal that requires a two thirds majority of YES votes as according to
