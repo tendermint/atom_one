@@ -1,4 +1,6 @@
-This is a proposal to adopt a minimal constitution, ATOM ZERO.
+This is a proposal to adopt a minimal constitution.
+
+Atom Zero Constitution:
 
 Definitions:
 
@@ -7,14 +9,14 @@ Definitions:
    as of when the voting period has concluded. ABSTAIN votes do not count
    toward the two thirds supermajority.
 
-Atom Zero Constitution:
+Article Zero:
 
 Proposals with the following elements require a two thirds supermajority to pass:
 
-   a. any changes to tokenomics beyond what is already implemented.
-   b. any inflation of tokens beyond the default inflation of ATOMs.
-   c. any changes to the governance process.
-   d. any adoption of a constitution (except this minimal constitution).
+ * any changes to tokenomics beyond what is already implemented.
+ * any inflation of tokens beyond the default inflation of ATOMs.
+ * any changes to the governance process.
+ * any adoption of a constitution (except this minimal constitution).
 
 Until the governance mechanism is changed to reflect this new constitution, a
 proposal that requires a two thirds majority as defined above but do not pass
