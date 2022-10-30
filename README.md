@@ -304,6 +304,10 @@ restrictions shall apply in converting PHOTONs back into ATOMs:
 
  * The auction shall start on the first day of the month and last for a week.
 
+ * If the amount of PHOTONs being converted back to ATOMs exceeds the amount
+   allowed to convert for that month, the ATOMs bonded for the difference shall
+   be considered burned at the end of the auction period.
+
 The PHOTON shall be the only staking token for ICS2 staking. 
 
 When PHOTONs are burned via ICS2 slashing on a zone, or when burned as
