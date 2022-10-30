@@ -30,6 +30,11 @@ IBC is short for Interchain Blockchain Communication, and includes all
 protocols that allow one chain to communicate state or messages with another
 chain by tracking the consensus state of the other.
 
+The ATOM is the primary staking token of the Cosmos Hub.
+
+The PHOTON token is a fixed supply (deflationary) representation of ATOM used
+for ICS2 staking across other blockchains.
+
 ICS is short for Interchain Security, and includes all protocols that allow the
 consensus of one chain to be partially or wholly secured by mechanisms on
 another chain.
@@ -149,6 +154,10 @@ protocols may vote in Cosmos Hub governance proposals.
 The governance process must extend the voting deadline to ensure at least 2
 weeks of voting after the minimum quorum has been met.
 
+UX interfaces that present the results of voting on governance proposals should
+also display the content of the memo field of each voting transaction such that
+the reason for the vote can be seen.
+
 TODO: fill in rules of cosmoshub4 governance.
 
 ### Article 2.C. Air-drops and forks
@@ -220,18 +229,23 @@ delegator's staking amount.
 
 Staked ATOMs are converted to Bonded Share Units.
 
-The unbonding period shall be 3 weeks.
+The Atom Unbonding Period shall be 3 weeks.
 
-Redelegation is allowed twice per unbonding period for any delegation.
+Redelegation is allowed twice per Atom Unbonding Period for any delegation.
 
 Double signing at any height/round/step results in slashing penalty that is
 proportional to the total amount of double signing by all validators for that
-height/round/step, with evidence collected during the unbonding period; the
-penalty shall range from +0% to 100%, the latter when 2/3 of voting power
-double-signs.
+height/round/step, with evidence collected during the Atom Unbonding Period;
+the penalty shall range from +0% to 100% of the Upper Slashing Limit in linear
+proportion, the latter when 1/3 of voting power double-signs.
 
 Complex signing failures (those that require +1/3 to coordinate) shall result
-in complete slashing.
+in slashing the Upper Slashing Limit.
+
+The Upper Slashing Limit shall be 50%. This parameter may be increased by a two
+thirds majority of the Cosmos Hub. In cases where there is sufficient evidence
+of malice and intent, this parameter may be overruled by a simple majority of
+the Cosmos Hub on a per-case basis up to 100%.
 
 Liquid staking may only be supported through interchain accounts (aka
 non-native liquid staking).
@@ -257,17 +271,34 @@ bonding, transaction fees are not paid to the ATOM to PHOTON bonders, and the
 bonded ATOMs are not included in the target two thirds ATOMs staked for the
 Cosmos Hub.
 
-The exchange rate formula between PHOTONs and ATOMs will be such that if all
-the ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there
-would always be 1 billion PHOTONs. This is a succinct but true invariant of the
+The exchange rate formula from ATOMs to PHOTONs shall be such that if all the
+ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there would
+always be 1 billion PHOTONs. This is a succinct but true invariant of the
 system. Consequently, the number of PHOTONs is capped and will never reach 1
 billion PHOTONs (because the number of ATOMs in existence must be greater than
 0 for there to be any validators).
 
-In general, PHOTONs may be converted back into staked ATOMs after waiting the
-standard unbonding period, with exceptions defined in this article.  To get
-free unbonded ATOMs back, one must thereafter undelegate from the Cosmos Hub
-validator and wait another unbonding period.
+The Photon Equivalent of Atoms is equal to 1 billion minus the number of total
+existing PHOTONs. If all ATOMs were to become bonded as PHOTONs, there would be
+an additional inflation of the Photon Equivalent of Atoms.
+
+In order to prevent hostile takeover of the Cosmos Hub, the following
+restrictions shall apply in converting PHOTONs back into ATOMs:
+
+ * Each month, there shall be a total allowance of 2% of the Photon Equivalent
+   of Atoms (the "Monthly Photon Equivalent Allowance") that can become
+   unbonded into ATOMs. This restricts the total amount of ATOMs that may
+   become unbonded from PHOTONs.
+
+ * There shall be a monthly auction where PHOTON holders may elect the number
+   of PHOTONs they wish to convert to ATOMs with a minimum required conversion
+   limit factor ranging from 0% to 100%. A limit of 0% is like a market order,
+   and means the user wishes to get a pro-rata of the available Photon
+   Equivalent of Atoms available for conversion that month. A conversion order
+   with limit of 100% will not execute if the total number of PHOTONs bidding
+   to convert to ATOMs exceeds the Monthly Photon Equivalent Allowance.
+
+ * The auction shall start on the first day of the month and last for a week.
 
 The PHOTON shall be the only staking token for ICS2 staking. 
 
@@ -283,14 +314,6 @@ of the Cosmos Hub's security.
 
 The PHOTON shall be whitelisted as transaction fee payments for the Cosmos Hub
 and all ICS1 and ICS2 hosted blockchains.
-
-If the amount of ATOMs to become unbonded from PHOTONs should exceed 20% of the
-total staked ATOMs toward the Comsos Hub at any moment, the unbonding period
-for these ATOMs shall be extended such that they all become unbonded after 4
-weeks from the moment of excess, and an additional week for every 5% that
-exceeds the 20%, so as to allow more PHOTONs to become unbonded to ATOMs
-simultaneously. This is intended to prevent large PHOTON holders from
-conducting a hostile takeover of the Cosmos Hub.
 
 ### Article 3.D. Inflation
 
@@ -576,7 +599,8 @@ period if a large conversion is detected.
 
 ### About consensus-driven investments
 
-Governance driven funding will fail, like central planning fails. - where-ever
+Global governance consensus driven investments will fair worse than local
+competition driven investments, like central planning fails. - where-ever
 possible we should ensure that intelligence is preserved or amplified in
 decisions. The way to ensure that good decisions are rewarded and bad decisions
 punished, is to require individual decision makers to put skin in the game.
@@ -600,6 +624,9 @@ money, making it harder for innovators to compete with incumbent politicians.
 The world would not accept such a policy toward central planning, and we should
 not accept it either, as it will lead to sure failure not only of the Cosmos
 Hub, but of the entire ecosystem.
+
+This Constitution defines Treasury DAOs that have local decision making
+authority, where Treasury DAOs compete with each other.
 
 ### How to immunize against the mark of the beast
 
