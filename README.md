@@ -60,6 +60,10 @@ the Cosmos Hub or free (not bonded to PHOTONs), everyone who auto-staked ATOMs
 on the Cosmos Hub would get slashed 1.5%. Inflationary ATOMs are paid to
 auto-stakers such that they do not suffer from the inflation rate of ATOMs.
 
+A two thirds supermajority is where more than 2/3rd of all participating staked
+ATOMs votes YES and the vote is above the current governance quorum value and
+the voting period has concluded. ABSTAIN votes do not count toward the 2/3.
+
 ## Part 1 General Provisions
 
 ### Article 1.A. Fundamental Principles
@@ -724,3 +728,4 @@ for more a previous essay on interchain staking and other related topics.
 * Jae Kwon - main author
 * Paul Susman - structure and various contributions
 * Manfred Touron - increase in redelegation
+* Zaki Manian - define two thirds supermajority
