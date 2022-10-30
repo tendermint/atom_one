@@ -8,6 +8,9 @@ are modifications to what already is. This clause will be removed with future
 revisions, and the corresponding parts of the document updated with a full
 description of the constitution of the hub._
 
+_This proposal will be proposed concurrently along with the ATOM ZERO proposal
+and the ATOM2.0 proposal._
+
 ## Preamble
 
 We the people of the Cosmos, in order to create a free world, enable voluntary
