@@ -1,6 +1,6 @@
 # Atom One Constitution (sentiment proposal)
 
-This is a sentiment proposal for the finalization and future ratification of the [Atom One Constitution](https://github.com/tendermint/atom_one/tree/13a717d5623e84ccb37127bb0301ae0e4bbb6999).
+This is a sentiment proposal for the finalization and future ratification of the [Atom One Constitution](https://github.com/tendermint/atom_one).
 
 The Atom One Constitution completes the original vision for the Cosmos Hub,
 and defines a clear economic model with ICS1/2A/2B interchain staking to enable thousands of new zones to bloom.
