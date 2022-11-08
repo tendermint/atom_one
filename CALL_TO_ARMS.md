@@ -1,4 +1,4 @@
-# Call to Arms for True Cosmonauts
+# Call to Arms of True Cosmonauts
 
 There comes a time when it becomes evident that the platform we built for the
 greater good is no longer bound by the principles that we hold so dear. These
