@@ -56,12 +56,7 @@ The conflict of interest involved in this maneuver is astounding. Ethan Buchman
 is one of three foundation council members of the ICF, who recently elevated
 Zaki Manian to oversee the transactions of the ICF's treasury. The ICF has on
 the order of $150M or more, and a for-public and for-Cosmos mandate. It has
-enough funds to fund the development of ATOM2.0 multiple times over. Another
-foundation council member is Brian Crain, who is the major proponent of liquid
-staking, and while not a stated co-author of the ATOM2.0 whitepaper, it is a
-fact that the ATOM2.0 whitepaper quotes from the Quicksilver whitepaper and
-heavily leans into liquid staking (at the expense of security). There is no
-reason why the ICF couldn't fund everything that ATOM2.0 wants.
+enough funds to fund the development of ATOM2.0 multiple times over.
 
 Instead, they have planned a hostile takeover of the Cosmos Hub by means of
 clever social engineering.
@@ -86,15 +81,6 @@ clever social engineering.
   governance, fact is the Cosmonauts with eyes to see are already planning to
   leave this network, so there is little reason to doubt that all the inflation
   will happen as they originally planned.
-
-* During the Cosmoverse event, Ethan Buchman put on screen Pepe the frog
-  crucified on a cross, and another declared "No god", while proponents of the
-  ATOM2.0 whitepaper donned satanic profile pictures on Twitter, especially
-  Ethan Buchman who sported what can best be described as the second beast of
-  the book of revelation (the one who administers the mark of the beast used to
-  enact a globalist human control grid); thereby both acting as a dog-whistle
-  for globalists, but also repelling good true christians and generally good
-  people who are abhorred by such symbolism.
 
 * The justification for the $500M+ inflation was supposedly to inflate up-front
   for development and economic alignment given that ATOM2.0 turns the ATOM
