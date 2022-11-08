@@ -73,8 +73,8 @@ Cosmos Hub by means of clever social engineering.
 
 * While the ICF already has $150M+ that can be used toward the development of
   ATOM2.0's project ideas, it instead proposed to inject $500M+ into a
-  centralized treasury whose charter would take control away from the Cosmos
-  Hub governance to the charter.
+  treasury whose charter would take control away from the Cosmos Hub governance
+  to the treasury's centralized council for those funds and more.
 
 * After the initial highly negative reaction from the community against the
   original proposed ATOM2.0 plan, they have merely managed to split the $500M+
