@@ -185,4 +185,5 @@ contract problem._
 _I can and want to do both._
 _We must do both._
 _I am committed to doing all of the above._
-- Jae Kwon
+
+\- Jae Kwon
