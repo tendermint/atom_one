@@ -29,7 +29,7 @@ chains secured by ICS.
 While the ATOM is a staking token, and the plan had always been for there to be
 many non-staking fee tokens, we also set out to provide a taste of the economic
 model through what we called the PHOTON token, which was originally intended to
-be a fork of the Ether distribution.
+be a fork of the Ether distribution, back in 2017.
 
 > Each member of a validator’s staking pool earns different types of revenue:
 >  * **Block provisions:** Native tokens of applications run by validators
@@ -41,12 +41,12 @@ be a fork of the Ether distribution.
 >    Ethereum.  This means Photons will be emitted 1:1 to Ether.
 >  * **Transaction fees:** The Cosmos Hub maintains a whitelist of token that
 >    are accepted as fee payment.
-
-This total revenue is divided among validators' staking pools according to each
-validator’s weight. Then, within each validator's staking pool the revenue is
-divided among delegators in proportion to each delegator’s stake. Note that a
-commission on delegators' revenue is applied by the validator before it is
-distributed.
+> 
+> This total revenue is divided among validators' staking pools according to each
+> validator’s weight. Then, within each validator's staking pool the revenue is
+> divided among delegators in proportion to each delegator’s stake. Note that a
+> commission on delegators' revenue is applied by the validator before it is
+> distributed. - VALIDATORS_FAQ.md Dec 2017
 
 So when the core proponents of Atom2.0 tell the community that ATOM is merely a
 meme-coin with no economic model, they are intentionally misleading the
