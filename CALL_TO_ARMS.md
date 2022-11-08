@@ -149,7 +149,8 @@ them do the right thing, if you know that their interests are maligned.
 If we show up in massive numbers to veto ATOM2.0, then stay and expel them from
 the ecosystem. Do not be cowered by their lies that nobody else will be able to
 develop the Cosmos Hub for us. The Cosmos Hub has spawned many teams to help us
-maintain the hub.
+maintain the hub. Even Jehan Tremback, co-author of ATOM2.0 has stated that he
+will work on whatever the Cosmos Hub decides is its mission. 
 
 If we do not succeed in vetoing ATOM2.0, or we barely succeed in stopping it,
 then it is time we organize an alternative minimal hub. We must start with a
