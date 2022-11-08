@@ -175,7 +175,7 @@ Let this serve as an eviction notice to (not all, but the malicious) proponents 
 
 ## Commentary
 
-"I (Jae Kwon) commit to fixing the cultural and technical issues of the Cosmos Hub,
+_I (Jae Kwon) commit to fixing the cultural and technical issues of the Cosmos Hub,
 or supporting a minimal fork of the Cosmos Hub aligned with the values of ATOM1.0.
 Should the proposal get vetoed with a large show of force, I will re-apply to
 the foundation council of the ICF, from which I was pressured to leave due to
@@ -183,4 +183,4 @@ the foundation council of the ICF, from which I was pressured to leave due to
 to get sufficient veto power, I nevertheless commit to a minimal fork. In either case
 the goal remains the same, to make a minimal hub AND gno.land work together as complementary
 systems; one solving the token pegging and ICS problem, and the other solving the smart 
-contract problem." - Jae Kwon
+contract problem. - Jae Kwon_
