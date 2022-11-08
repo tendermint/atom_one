@@ -7,8 +7,7 @@ associations. This is our right, as given by the laws of nature and
 cryptoeconomics.
 
 > "All atom holders are free to fork, slash, and hack each other in accordance
-with the spirit of the Cosmos Constitution." - Cosmos fundraiser PLAN.md from
-2017.
+with the spirit of the Cosmos Constitution." - _Cosmos fundraiser PLAN.md from 2017_
 
 Atoms are not money. The dual token model is superior as it prevents the
 hostile takeover of governance from the common token holder. Bitcoin would be
@@ -20,8 +19,7 @@ as money, as there would be less skin in the game.
 > "Atoms are not designed to be a medium of exchange nor a store of value.  ...
 Inactive or unbonded atom holders do not earn the inflationary atoms, and are
 thus taxed. This makes atoms ill-suited as a medium of exchange or a store of
-value. Instead, atoms are a tool, like Bitcoin miners are a tool." - Cosmos
-fundraiser PLAN.md from 2017.
+value. Instead, atoms are a tool, like Bitcoin miners are a tool." - _Cosmos fundraiser PLAN.md from 2017_
 
 The Atom inflation model is a shortcut for penalizing non-staking. That's it.
 It is not the primary economic incentive model for the Cosmos Hub. The primary
@@ -163,11 +161,11 @@ is too late. So let us throw this ring of power into the fire before it becomes
 a problem once again.
 
 > "What do I do if I want to tweet about controversial positions on April fools
-> but I want people to take them seriously?" - Ethan Buchman, April 1st, 2021.
+> but I want people to take them seriously?" - _Ethan Buchman, April 1st, 2021_
 
 > "After careful thought I've realized that in fact, the most efficient,
 > effective, and sustainable way to structure the economy is to have one global
 > currency that all 7B+ of us can use and it should be backed by the largest
-> and strongest nation state government" - Ethan Buchman, April 1st, 2021.
+> and strongest nation state government" - _Ethan Buchman, April 1st, 2021_
 
 Let this serve as an eviction notice to the proponents of ATOM2.0.
