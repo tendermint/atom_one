@@ -54,12 +54,14 @@ Cosmonaut community in order to get their ATOM2.0 proposal to pass.
 
 The conflict of interest involved in this maneuver is astounding. Ethan Buchman
 is one of three foundation council members of the ICF, who recently elevated
-Zaki Manian to oversee the transactions of the ICF's treasury. The ICF has on
-the order of $150M or more, and a for-public and for-Cosmos mandate. It has
-enough funds to fund the development of ATOM2.0 multiple times over.
+Zaki Manian to oversee the transactions of the ICF's treasury. Another member
+of the FC council is the leading proponent of liquid staking. There is no reason why
+the ICF cannot fund for the development of everything in the ATOM2.0 whitepaper.
+The ICF has on the order of $150M or more, and a for-public and for-Cosmos mandate.
+It has enough funds to fund the development of ATOM2.0 multiple times over.
 
-Instead, they have planned a hostile takeover of the Cosmos Hub by means of
-clever social engineering.
+Instead, certain proponents of ATOM2.0 have planned a hostile takeover of the
+Cosmos Hub by means of clever social engineering.
 
 * They modified the header of the cosmos.network website to make it appear as
   if ATOM2.0 was an "official" roadmap, in clear violation of the conflict of
@@ -101,6 +103,17 @@ clever social engineering.
   certain scenarios, especially when malice is involved. The whitepaper says
   nothing about the various and real systemic risks associated with liquid
   staking but rather goes all-in on it.
+  
+* The ATOM2.0 whitepaper confuses the economic engine as being both ICS for
+  the atom inflation tokenomics part, but also puts too much emphasis on the
+  experimental allocator and very loosely worded section on the scheduler
+  that appears to support value extraction as the economic model for the hub.
+  MEV (maximal extractable value) primarily needs to be solved in the application.
+  To make a block space market and to call that the economic model, and as one
+  proponent says, to "democratize extractable value" is to opposite of what
+  we need to do. It confuses an attempt to ameliorate centralizing factors of 
+  MEV by putting it on chain, as an economic model of the new ATOM2.0 vision.
+  This is quasi-exploitative, and not generative. ICS scaling is generative.
 
 * The co-authors of ATOM2.0 even proposed Prop75 to redefine the NoWithVeto
   option to attempt to ban this option from being used to veto such proposals
