@@ -159,7 +159,7 @@ Let this serve as an eviction notice to (not all, but the malicious) proponents 
 
 ----
 
-## Commentary
+## Commitment
 
 _I returned in May to provide organizational leadership and design direction for the
 growth of Cosmos. NoWithVeto on prop82 enables me to dedicate myself to the urgent
