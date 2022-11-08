@@ -1,4 +1,4 @@
-# Call to Arms of True Cosmonauts
+# A Call to Arms of True Cosmonauts
 
 There comes a time when it becomes evident that the platform we built for the
 greater good is no longer bound by the principles that we hold so dear. These
@@ -144,7 +144,7 @@ So here is my call to action to the Cosmonaut community. Vote NoWithVeto on
 prop82. Do not be fooled, and do not tolerate this behavior from leadership. Do
 not work with them, for they have already made their choices long ago to
 manipulate their way to power. Do not drain yourselves of energy trying to help
-them do the right thing.
+them do the right thing, if you know that their interests are maligned.
 
 If we show up in massive numbers to veto ATOM2.0, then stay and expel them from
 the ecosystem. Do not be cowered by their lies that nobody else will be able to
@@ -168,4 +168,6 @@ a problem once again.
 > currency that all 7B+ of us can use and it should be backed by the largest
 > and strongest nation state government" - _Ethan Buchman, April 1st, 2021_
 
-Let this serve as an eviction notice to the proponents of ATOM2.0.
+Let this serve as an eviction notice to (not all, but the malicious) proponents of ATOM2.0.
+
+
