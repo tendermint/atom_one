@@ -175,14 +175,14 @@ Let this serve as an eviction notice to (not all, but the malicious) proponents 
 
 ## Commentary
 
-> I returned in May to provide organizational leadership and design direction for the
+_I returned in May to provide organizational leadership and design direction for the
 growth of Cosmos. NoWithVeto on prop82 enables me to dedicate myself to the urgent
 development work needed on the hub without distractions. I will reapply to the foundation
 council of the ICF. Gno.land is complementary to my vision of what a minimal hub needs;
 one solving the token pegging and ICS scaling problem, and the other solving the smart
-contract problem.
->
-> I can and want to do both.
-> We must do both.
-> I am committed to doing all of the above.
-> _- Jae Kwon_
+contract problem._
+
+_I can and want to do both._
+_We must do both._
+_I am committed to doing all of the above._
+- Jae Kwon
