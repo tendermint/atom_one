@@ -175,12 +175,15 @@ Let this serve as an eviction notice to (not all, but the malicious) proponents 
 
 ## Commentary
 
-_I (Jae Kwon) commit to fixing the cultural and technical issues of the Cosmos Hub,
-or supporting a minimal fork of the Cosmos Hub aligned with the values of ATOM1.0.
-Should the proposal get vetoed with a large show of force, I will re-apply to
-the foundation council of the ICF, from which I was pressured to leave due to
-"conflict of interest" from those with conflict of interest. Should the proposal fail
-to get sufficient veto power, I nevertheless commit to a minimal fork. In either case
-the goal remains the same, to make a minimal hub AND gno.land work together as complementary
-systems; one solving the token pegging and ICS problem, and the other solving the smart 
-contract problem. - Jae Kwon_
+_I returned in May to provide organizational leadership and design direction for the
+growth of Cosmos. NoWithVeto on prop82 enables me to dedicate myself to the urgent
+development work needed on the hub without distractions. I will reapply to the foundation
+council of the ICF. Gno.land is complementary to my vision of what a minimal hub needs;
+one solving the token pegging and ICS scaling problem, and the other solving the smart
+contract problem.
+
+I can and want to do both.
+We must do both.
+I am committed to doing all of the above.
+
+- Jae Kwon_
