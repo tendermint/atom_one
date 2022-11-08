@@ -735,4 +735,4 @@ for more a previous essay on interchain staking and other related topics.
 * Jae Kwon - main author
 * Paul Susman - structure and various contributions
 * Manfred Touron - increase in redelegation
-* Zaki Manian - define two thirds supermajority
+* Thank you Cosmonauts for much feedback
