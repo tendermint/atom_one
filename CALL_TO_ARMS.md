@@ -104,6 +104,11 @@ Cosmos Hub by means of clever social engineering.
   nothing about the various and real systemic risks associated with liquid
   staking but rather goes all-in on it.
   
+* Liquid staking combined with shorting markets will incentivize the employees
+  or insiders of validator companies to sabotage their own validator.
+  As far as I am aware, nobody has considered this risk factor, because
+  not enough is known about the risks of liquid staking.
+  
 * The ATOM2.0 whitepaper confuses the economic engine as being both ICS for
   the atom inflation tokenomics part, but also puts too much emphasis on the
   experimental allocator and very loosely worded section on the scheduler
