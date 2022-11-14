@@ -130,6 +130,17 @@ provisions of this Constitution.
 Every Citizen allows the Governance of the Cosmos Hub to restrict their staked
 ATOM property by partial or full slashing according to their voting activity.
 
+The Core Values of the Cosmos Hub are transparency, accountability, honesty,
+(BFT) robustness, security, and simplicity.
+
+Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
+of new tokens to any chain using the distribution of any token on the Cosmos
+Hub at any time.
+
+Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
+portion by partial or full slashing based on their cryptographic voting
+activity according to well defined principles at any time.
+
 ## Part 2 Governance
 
 ### Article 2.A. The Cosmos Hub Chain
@@ -167,15 +178,16 @@ the reason for the vote can be seen.
 
 TODO: fill in rules of cosmoshub4 governance.
 
-### Article 2.C. Air-drops and forks
+### Article 2.C. Memorandums
 
-Every Cosmonaut allows any other Cosmonaut to create full or partial airdrops
-of new tokens to any chain using the distribution of any token on the Cosmos
-Hub at any time.
+The same system as that of governance proposals may be used to pass or reject
+memorandums that shall have no effect upon the governance of the system.
 
-Every Citizen allows any Cosmonaut to modify their pro-rata of their airdrop
-portion by partial or full slashing based on their cryptographic voting
-activity according to well defined principles at any time.
+Memorandums may be used to notify Cosmonauts of behavior from validators and
+key executives of validators, as well as prominent members of the Cosmos Hub,
+of behavior that violates the Core Values of the Cosmos Hub. Voting should
+depend solely on the evidence provided on the memorandum proposal. Incomplete
+proposals should be rejected with a NWV vote.
 
 ### Article 2.D. Treasury DAOs
 
@@ -344,7 +356,7 @@ ATOMs, and shall be sent to the Community Pool.
 The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
 by two thirds supermajority of the Cosmos Hub governance.
 
-### Article 2.F. The Interchain Security (ICS) Systems
+### Article 3.F. The Interchain Security (ICS) Systems
 
 While the ATOM is the only token allowed for staking on the Cosmos Hub, thereby
 allowing validators to also partake in ICS2 hosting of Consumer Chains, the
@@ -369,6 +381,10 @@ the primary staking token of that zone; thus its participation in Cosmos Hub
 voting through the PHOTON shall be represented by a distribution of choices.
 Staking token holders of the zone who abstain or do not vote must also count
 toward non-voting (rather than the ABSTAIN option) on the Cosmos Hub.
+
+### Article 3.E. The Crypto Court System
+
+TODO add details of ICS1/ICS2 and custom court procedure.
 
 ## Part 4 Final Dispositions
 
