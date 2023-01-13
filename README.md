@@ -1,15 +1,12 @@
 # ATOM ONE CONSTITUTION 
 
-_NOTE: THIS IS A DRAFT; MAKE A PR BEFORE IT BECOMES FINAL!_
+_UPDATE: now with PHOTON removed._
 
 _This document is a work in progress. This document assumes familiarity with
 the current workings of cosmoshub4 as of Oct 11th 2022. What is described here
 are modifications to what already is. This clause will be removed with future
 revisions, and the corresponding parts of the document updated with a full
 description of the constitution of the hub._
-
-_This proposal will be proposed concurrently along with the ATOM ZERO proposal
-and the ATOM2.0 proposal._
 
 ## Preamble
 
@@ -35,9 +32,6 @@ chain by tracking the consensus state of the other.
 
 The ATOM is the primary staking token of the Cosmos Hub.
 
-The PHOTON token is a fixed supply (deflationary) representation of ATOM used
-for ICS2 staking across other blockchains.
-
 ICS is short for Interchain Security, and includes all protocols that allow the
 consensus of one chain to be partially or wholly secured by mechanisms on
 another chain.
@@ -50,16 +44,16 @@ ICS2 includes all protocols where slash conditions for complex failure
 scenarios of one validator set are handled by another validator set, where
 slashing affects tokens on the latter validator set.
 
-ICS2A includes all protocols of ICS2 where the ownership of PHOTONs are
-entirely managed on the Cosmos Hub.
+ICS2A includes all protocols of ICS2 where stake is entirely managed by the
+Cosmos Hub (in the form of ATOMs or other derivatives).
 
-ICS2B includes all protocols of ICS2 where the ownership of PHOTONs are
-entirely managed by logic of the other chain.
+ICS2B includes all protocols of ICS2 where stake is entirely managed by the
+logic of the other chain.
 
 Auto-staking is staking across all current validators in proportion to their
 voting power. For example, if a validator that had 10% of the voting power were
 to get slashed 30% on the Cosmos Hub, and 50% of ATOMs were either staked onto
-the Cosmos Hub or free (not bonded to PHOTONs), everyone who auto-staked ATOMs
+the Cosmos Hub or free (not auto-staked), everyone who auto-staked ATOMs
 on the Cosmos Hub would get slashed 1.5%. Inflationary ATOMs are paid to
 auto-stakers such that they do not suffer from the inflation rate of ATOMs.
 
@@ -139,8 +133,6 @@ The root hub chain of the Cosmos Hub is uniquely identified by chainid
 following functions:
 
  * governance voting
- * ATOM and PHOTON staking
- * ATOM <-> PHOTON conversion
  * intra-hub token transfers
  * IBC token transfers
  * ICS1 and ICS2 management
@@ -150,13 +142,7 @@ following functions:
 The working language of Cosmos Hub governance is English.
 
 The quorum necessary for a proposal to be valid shall depend only on number of
-bonded ATOMs, and not on the number of PHOTONs.
-
-The total voting power for all bonded PHOTONs shall not exceed the total voting
-power of all staked ATOMs.
-
-PHOTONs bonded for ICS2 hosting according to whitelisted ICS2A and ICS2B
-protocols may vote in Cosmos Hub governance proposals.
+bonded ATOMs.
 
 The governance process must extend the voting deadline to ensure at least 2
 weeks of voting after the minimum quorum has been met.
@@ -219,7 +205,7 @@ on the Cosmos Hub.
 The one and only economic incentive model of the Cosmos Hub is the collection
 of market-based transaction fees from a large number of transactions across all
 the chains secured by the staking of ATOMs on the Cosmos Hub including ICS1
-hosted blockchains, and the staking of PHOTONs for ICS2 secured blockchains.
+hosted blockchains.
 
 ### Article 3.B. The ATOM Token
 
@@ -270,61 +256,9 @@ parameter may be adjusted by a two thirds supermajority vote of the Cosmos Hub.
 
 TODO: simplify the above two rules.
 
-### Article 3.C. The PHOTON Token
+### Article 3.C. Intentionally left empty
 
-The PHOTON distribution shall be created by mechanism similar to auto-staking
-ATOMs called "ATOM to PHOTON bonding". For the purpose of ATOM to PHOTON
-bonding, transaction fees are not paid to the ATOM to PHOTON bonders, and the
-bonded ATOMs are not included in the target two thirds ATOMs staked for the
-Cosmos Hub.
-
-The exchange rate formula from ATOMs to PHOTONs shall be such that if all the
-ATOMs not already bonded into PHOTONs were to be bonded to PHOTONs, there would
-always be 1 billion PHOTONs. This is a succinct but true invariant of the
-system. Consequently, the number of PHOTONs is capped and will never reach 1
-billion PHOTONs (because the number of ATOMs in existence must be greater than
-0 for there to be any validators).
-
-The Photon Equivalent of Atoms is equal to 1 billion minus the number of total
-existing PHOTONs. If all ATOMs were to become bonded as PHOTONs, there would be
-an additional inflation of the Photon Equivalent of Atoms.
-
-In order to prevent hostile takeover of the Cosmos Hub, the following
-restrictions shall apply in converting PHOTONs back into ATOMs:
-
- * Each month, there shall be a total allowance of 2% of the Photon Equivalent
-   of Atoms (the "Monthly Photon Equivalent Allowance") that can become
-   unbonded into ATOMs. This restricts the total amount of ATOMs that may
-   become unbonded from PHOTONs.
-
- * There shall be a monthly auction where PHOTON holders may elect the number
-   of PHOTONs they wish to convert to ATOMs with a minimum required conversion
-   limit factor ranging from 0% to 100%. A limit of 0% is like a market order,
-   and means the user wishes to get a pro-rata of the available Photon
-   Equivalent of Atoms available for conversion that month. A conversion order
-   with limit of 100% will not execute if the total number of PHOTONs bidding
-   to convert to ATOMs exceeds the Monthly Photon Equivalent Allowance.
-
- * The auction shall start on the first day of the month and last for a week.
-
- * If the amount of PHOTONs being converted back to ATOMs exceeds the Monthly
-   Photon Equivalent Allowance, the ATOMs bonded for the difference shall be
-   considered burned at the end of the auction period.
-
-The PHOTON shall be the only staking token for ICS2 staking. 
-
-When PHOTONs are burned via ICS2 slashing on a zone, or when burned as
-transaction fees, or burned for any reason, their burn amount must be reported
-back to the Cosmos Hub via IBC. The amount will be deducted from the PHOTON
-balance of the zone. Because of the invariant that there shall always be 1
-billion PHOTON equivalent, burning PHOTONs in this way is beneficial to the
-ATOM holders. On the other hand, burning ATOMs say through slashing on the
-Cosmos Hub does not change the number of PHOTONs in circulation, such that the
-relative market cap of the remaining ATOMs can be better preserved for the sake
-of the Cosmos Hub's security.
-
-The PHOTON shall be whitelisted as transaction fee payments for the Cosmos Hub
-and all ICS1 and ICS2 hosted blockchains.
+(note: formerly an article on the PHOTON token)
 
 ### Article 3.D. Inflation
 
@@ -344,31 +278,6 @@ ATOMs, and shall be sent to the Community Pool.
 The Common Pool Tax rate shall initially be 2%, but can be increased up to 50%
 by two thirds supermajority of the Cosmos Hub governance.
 
-### Article 2.F. The Interchain Security (ICS) Systems
-
-While the ATOM is the only token allowed for staking on the Cosmos Hub, thereby
-allowing validators to also partake in ICS2 hosting of Consumer Chains, the
-PHOTON is the only token allowed for ICS2 hosting.
-
-2% of the transaction fees earned from ICS2 hosting shall be paid to the ATOM
-holders staked toward the Cosmos Hub (the "ICS2 Tax"). The ICS2 Tax parameter
-may be adjusted by a two thirds supermajority of Cosmos Hub governance, with
-the constraint that it may not increase by more than 1% per year. For clarity,
-if the ICS2 Tax is 2% today, it may not be higher than 3% within a year.
-
-The ICS2A systems must ensure a reasonable Nakamoto coefficient for each zone.
-This shall be accomplished, among other means, by selecting validators from
-similar tiers of bonded photons, where the largest tier is no larger than 3
-times the size of the smallest tier. Each validator may elect to disclose their
-true geographic location as well as the location of all backup systems, or they
-may elect to remain geographically unlocated.
-
-Sovereign zones secured by ICS2B systems must allow its delegators' votes to be
-represented pro-rata according to the explicit and manual voting activity via
-the primary staking token of that zone; thus its participation in Cosmos Hub
-voting through the PHOTON shall be represented by a distribution of choices.
-Staking token holders of the zone who abstain or do not vote must also count
-toward non-voting (rather than the ABSTAIN option) on the Cosmos Hub.
 
 ## Part 4 Final Dispositions
 
@@ -411,10 +320,6 @@ thirds supermajority of Cosmos Hub governance.
 # COMMENTARY
 
 _This is not part of the Constitution_
-
-## About the PHOTON
-
-The PHOTON is intended to be a deflationary representation of ATOMs.
 
 ## Comments from Jae Kwon
 
@@ -466,63 +371,10 @@ shard zones where governance/policy and staking gets applied to all shards.
 Otherwise, you don’t have one system of guarantees, you have many independent
 chains. Need to scale sendtx, might as well ICS.
 
-### About ATOM2.0
-
-I'm not against all the ideas of ATOM2. Some ideas are genuinely interesting. I
-just think we should do it on ATOM1, and use PHOTONs. That is, ATOM2 ->
-PHOTON1.
-
-Pretty much all the proposals in the ATOM2 paper can be implemented on top of
-ATOM1 (see github link above for draft) on the PHOTON token on separate zones
-implemented permissionlessly. The Allocator service zone could be implemented
-by anyone and secured by ICS, and use PHOTONs as the counterparty token in
-AMMs. The Scheduler likewise can be implemented permissionlessly and use
-PHOTONs as payment token. Zones can choose to use whatever scheduling or
-allocation system they want. ATOM1 allows governance to approve of inflation of
-PHOTONs for any particular purpose such as this.
-
-The main benefit of allowing permissionless implementation of the allocator and
-scheduler is that it allows competition of implementation. For example, there
-are alternative ways to implement the Scheduler that is different than ABCI++;
-it can be implemented as an extension to ABCI to allow Tendermint to allocate
-different priority mempools for different transaction types. This isn’t what is
-proposed in ABCI++ but IMO the first step to solving pay-for-priority. We don’t
-have to solve this by commitee, we can let the free market decide what solution
-is actually preferred.
-
-The proposed treasury inflation is ludicrously high. - there was another tweet
-by someone extolling the virtues of treasury funding, of how 100,000 ATOMs were
-able to accomplish so much. The ATOM2.0 proposal creates FIVE HUNDRED (500)
-TIMES as much to go into treasury in the first year alone. Not only are there
-enough funds within the ICF alone to complete the featureset of the Cosmos Hub,
-it is certainly unnecessary to inflate so much in addition. No single
-centralized entity can responsibly distribute such funds in a responsible way.
-In fact, it will lead to failure. Queue all the crypto projects that raised so
-much money that are not even breaking even. EOS comes to mind, but there are
-numerous examples.
-
-Instead, the proposal for the ATOM ONE constitution here proposes the adoption
-of one or more Treasury DAOs that can be funded as needed; slowly at first,
-with more funding to come from the community pool as the Treasury DAO proves
-itself.
-
-Described in the constitution also are a way for the ICF to defer to a Treasury
-DAO for execution and decisions, while still maintaining control over the
-distribution of funds via a m-of-n multisignature account on the hub, thereby
-having ultimate veto power.
-
-Also, the tax system may be used to allocation a portion of ATOM inflation to
-fund the common pool.
-
-Also, with two thirds supermajority vote, more ATOMs can be allocated for any
-purpose.
-
 ### About security, and the need for ATOM/PHOTON separation
 
-I do see the “monification” of ATOM as per ATOM2.0 to be fundamentally flawed,
-for a chain whose main selling point is SECURITY. I believe ETH2.0 with its ETH
-staking is similarly flawed. I fear that we won’t realize it until it is too
-late. We can prevent future disasters.
+_UPDATE: My thinking on this section has evolved since PHOTON can be
+implemented as auto-staking on top of ICS1_.
 
 The staking ratio today on Ethereum PoS is 12%. With massive adoption, unless
 we have complete laymen involved in staking, and with ETH becoming money, the
@@ -562,51 +414,6 @@ its utility is limited. It is already supported through the usage of interchain
 accounts, so that is all that needs to be done to support it. Rather we should
 limit liquid staking and other systemic risks by limiting how much can be
 bonded through interchain accounts.
-
-### Interchain Staking with ATOMs or PHOTONs
-
-This section is from The Shape of Cosmos document (link below).
-
-#### Interchain Staking Inflationary ATOMs
-
-There's one question here that pops up, for readers aware of the economics of
-the Cosmos Hub: why would you "stake" ATOMs on BarChain if you aren't going to
-earn inflationary rewards of ATOMs?
-
-It wouldn't be fair to bypass the Cosmos Hub ATOM inflation tax simply for
-staking those ATOMs on another chain. If that were the case, everyone rational
-would stake their ATOMs on a fake zone that did nothing but the bare minimum,
-and would therefore yeild higher returns because it would be easier to secure
-(by virtue of it not doing anything).
-
-Let's say that you could stake to all the validators in proportion to their
-current voting power, or in other words, you could stake on the hub itself.
-I'll call this "auto-staking". For example, if a validator that had 10% of the
-voting power were to get slashed 30% on the Cosmos Hub, everyone who
-auto-staked ATOMs on the Cosmos Hub would get slashed 3%.
-
-So, one solution is to let ATOM holders x-stake, but require them to also
-double-stake on the Cosmos Hub itself via auto-staking. Now, there is no "free
-lunch" to interchain stakers, so they can also earn inflationary ATOMs.
-Triple-staking would not be allowed -- it's not needed for interchain staking,
-and it would make security guarantees worse.
-
-The down-side of auto-staking is that it's a form of "blind staking" -- a loss
-of agency on behalf of the staker to the manual-stakers. If there were 90% of
-ATOMs that were auto-staked, then delegating manually brings 9x the extra
-voting power with it, and so the system becomes overall unstable, and bribing
-with side-channel paybacks would become the norm -- something we want to avoid.
-
-Various forms of interchain-staking with ATOMs can work, but it invites
-yield-seeking capital to hold atoms to stake on various zones, and eventually
-defeats the purpose of having a separate staking token for the hub in the first
-place. The amount or ratio of ATOMs thus x-staked could be limited, but this is
-still a slippery slope.
-
-In short, interchain-staking with ATOMs is difficult to get right. This
-constitution attempts to balance the desire for ATOM ICS2 staking and the need
-to ensure security of the Cosmos Hub by extending the PHOTON to ATOM unbonding
-period if a large conversion is detected.
 
 ### About consensus-driven investments
 
