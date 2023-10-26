@@ -1,6 +1,7 @@
 # ATOM ONE CONSTITUTION 
 
-_UPDATE: now with PHOTON removed._
+_UPDATE: now with PHOTON removed. PHOTONs can be implemented as an ICS consumer
+chain. For PHOTON tokenomics, see https://github.com/tendermint/atom_one/commit/6740297b387cade9566584760625ba0a94ac85ed_
 
 _This document is a work in progress. This document assumes familiarity with
 the current workings of cosmoshub4 as of Oct 11th 2022. What is described here
