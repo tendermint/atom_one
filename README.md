@@ -1,3 +1,9 @@
+UPDATE: Moved to https://github.com/atomone-hub/genesis
+
+------------
+
+Outdated, but includes extra writing:
+
 # ATOM ONE CONSTITUTION 
 
 _UPDATE: now with PHOTON removed. PHOTONs can be implemented as an ICS consumer
